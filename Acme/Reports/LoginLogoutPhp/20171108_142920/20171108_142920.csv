@@ -1,0 +1,15 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+LoginLogoutPhp,Firefox 56.0,login logout php,2017-11-08 14:29:59,2017-11-08 14:30:13,13.568s,PASSED
+,,,,,,
+Test Cases/Phpadminlogin,Firefox 56.0,php demo travel admin login,2017-11-08 14:30:00,2017-11-08 14:30:09,9.375s,PASSED
+openBrowser,Firefox 56.0,,2017-11-08 14:30:00,2017-11-08 14:30:08,7.738s,PASSED
+maximizeWindow,Firefox 56.0,,2017-11-08 14:30:08,2017-11-08 14:30:08,0.243s,PASSED
+setText,Firefox 56.0,,2017-11-08 14:30:08,2017-11-08 14:30:08,0.338s,PASSED
+setText,Firefox 56.0,,2017-11-08 14:30:08,2017-11-08 14:30:09,0.145s,PASSED
+click,Firefox 56.0,,2017-11-08 14:30:09,2017-11-08 14:30:09,0.427s,PASSED
+,,,,,,
+Test Cases/PhpLogout,Firefox 56.0,,2017-11-08 14:30:09,2017-11-08 14:30:13,3.836s,PASSED
+waitForPageLoad,Firefox 56.0,,2017-11-08 14:30:09,2017-11-08 14:30:12,2.541s,PASSED
+click,Firefox 56.0,,2017-11-08 14:30:12,2017-11-08 14:30:12,0.142s,PASSED
+click,Firefox 56.0,,2017-11-08 14:30:12,2017-11-08 14:30:12,0.156s,PASSED
+closeBrowser,Firefox 56.0,,2017-11-08 14:30:12,2017-11-08 14:30:13,0.723s,PASSED

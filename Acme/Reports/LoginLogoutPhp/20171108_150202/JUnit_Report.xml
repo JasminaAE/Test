@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="LoginLogoutPhp" time="15" tests="2" failures="0" errors="0">
+   <testsuite name="LoginLogoutPhp" tests="2" failures="0" errors="0" time="15" timestamp="2017-11-08 15:02:04" hostname="QH_05 - 192.168.18.128" id="Test Suites/LoginLogoutPhp">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\QH_05\\Katalon Studio\\Acme\\Reports\\LoginLogoutPhp\\20171108_150202"/>
+         <property name="logFiles" value="C:\\Users\\QH_05\\Katalon Studio\\Acme\\Reports\\LoginLogoutPhp\\20171108_150202\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="QH_05 - 192.168.18.128"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.0.1.1"/>
+         <property name="browser" value="Chrome 61.0.3163.100"/>
+         <property name="hostAddress" value="192.168.18.128"/>
+         <property name="sessionId" value="60d70751fd762a1ad63a269d0710e235"/>
+         <property name="seleniumVersion" value="2.53.0"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Phpadminlogin" classname="Test Cases/Phpadminlogin" status="PASSED">
+         <system-out><![CDATA[2017-11-08 15:02:05 - [TEST_CASE][PASSED] - Test Cases/Phpadminlogin: Test Cases/Phpadminlogin
+
+2017-11-08 15:02:05 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'http://www.phptravels.net/admin'
+
+2017-11-08 15:02:11 - [MESSAGE][PASSED] - Browser is opened with url: 'http://www.phptravels.net/admin'
+
+2017-11-08 15:02:11 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2017-11-08 15:02:12 - [MESSAGE][PASSED] - Current window maximized
+
+2017-11-08 15:02:12 - [TEST_STEP][PASSED] - setText: Text 'admin@phptravels.com' is set on object 'Object Repository/loginPHPadmin/emaiTextBox'
+
+2017-11-08 15:02:13 - [MESSAGE][PASSED] - Text 'admin@phptravels.com' is set on object 'Object Repository/loginPHPadmin/emaiTextBox'
+
+2017-11-08 15:02:13 - [TEST_STEP][PASSED] - setText: Text 'demoadmin' is set on object 'Object Repository/loginPHPadmin/passwordTextBox'
+
+2017-11-08 15:02:13 - [MESSAGE][PASSED] - Text 'demoadmin' is set on object 'Object Repository/loginPHPadmin/passwordTextBox'
+
+2017-11-08 15:02:13 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/loginPHPadmin/button_btn btn-primary btn-blo' is clicked on
+
+2017-11-08 15:02:13 - [MESSAGE][PASSED] - Object: 'Object Repository/loginPHPadmin/button_btn btn-primary btn-blo' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/PhpLogout" classname="Test Cases/PhpLogout" status="PASSED">
+         <system-out><![CDATA[2017-11-08 15:02:13 - [TEST_CASE][PASSED] - Test Cases/PhpLogout: Test Cases/PhpLogout
+
+2017-11-08 15:02:13 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2017-11-08 15:02:17 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2017-11-08 15:02:17 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/loginPHPadmin/i_fa fa-caret-down fa-lg' is clicked on
+
+2017-11-08 15:02:17 - [MESSAGE][PASSED] - Object: 'Object Repository/loginPHPadmin/i_fa fa-caret-down fa-lg' is clicked on
+
+2017-11-08 15:02:17 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/loginPHPadmin/a_Log Out' is clicked on
+
+2017-11-08 15:02:18 - [MESSAGE][PASSED] - Object: 'Object Repository/loginPHPadmin/a_Log Out' is clicked on
+
+2017-11-08 15:02:18 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2017-11-08 15:02:20 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2017-11-08 15:02:04 - [TEST_SUITE][PASSED] - LoginLogoutPhp: Test Cases/PhpLogout]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

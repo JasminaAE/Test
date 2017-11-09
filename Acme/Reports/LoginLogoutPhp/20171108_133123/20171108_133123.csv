@@ -1,0 +1,12 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+LoginLogoutPhp,Chrome 61.0.3163.100,login logout php,2017-11-08 13:31:25,2017-11-08 13:32:02,36.845s,FAILED
+,,,,,,
+Test Cases/Phpadminlogin,Chrome 61.0.3163.100,php demo travel admin login,2017-11-08 13:31:25,2017-11-08 13:31:33,8.217s,PASSED
+openBrowser,Chrome 61.0.3163.100,,2017-11-08 13:31:26,2017-11-08 13:31:32,6.094s,PASSED
+maximizeWindow,Chrome 61.0.3163.100,,2017-11-08 13:31:32,2017-11-08 13:31:33,1.146s,PASSED
+setText,Chrome 61.0.3163.100,,2017-11-08 13:31:33,2017-11-08 13:31:33,0.280s,PASSED
+setText,Chrome 61.0.3163.100,,2017-11-08 13:31:33,2017-11-08 13:31:33,0.137s,PASSED
+click,Chrome 61.0.3163.100,,2017-11-08 13:31:33,2017-11-08 13:31:33,0.113s,PASSED
+,,,,,,
+Test Cases/PhpLogout,Chrome 61.0.3163.100,,2017-11-08 13:31:34,2017-11-08 13:32:01,27.205s,FAILED
+click,Chrome 61.0.3163.100,,2017-11-08 13:31:34,2017-11-08 13:32:01,26.977s,FAILED

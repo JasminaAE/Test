@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="LoginLogoutPhp" time="51" tests="1" failures="1" errors="0">
+   <testsuite name="LoginLogoutPhp" tests="1" failures="1" errors="0" time="51" timestamp="2017-11-08 13:34:32" hostname="QH_05 - 192.168.18.128" id="Test Suites/LoginLogoutPhp">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\QH_05\\Katalon Studio\\Acme\\Reports\\LoginLogoutPhp\\20171108_133431"/>
+         <property name="logFiles" value="C:\\Users\\QH_05\\Katalon Studio\\Acme\\Reports\\LoginLogoutPhp\\20171108_133431\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\QH_05\\Katalon Studio\\Acme\\Reports\\LoginLogoutPhp\\20171108_133431\\1510144522869.png"/>
+         <property name="hostName" value="QH_05 - 192.168.18.128"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.0.1.1"/>
+         <property name="browser" value="Chrome 61.0.3163.100"/>
+         <property name="hostAddress" value="192.168.18.128"/>
+         <property name="sessionId" value="7f417786e8d1b2df6d0d4f5340504600"/>
+         <property name="seleniumVersion" value="2.53.0"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Phpadminlogin" classname="Test Cases/Phpadminlogin" status="PASSED">
+         <system-out><![CDATA[2017-11-08 13:34:33 - [TEST_CASE][PASSED] - Test Cases/Phpadminlogin: Test Cases/Phpadminlogin
+
+2017-11-08 13:34:33 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'http://www.phptravels.net/admin'
+
+2017-11-08 13:34:40 - [MESSAGE][PASSED] - Browser is opened with url: 'http://www.phptravels.net/admin'
+
+2017-11-08 13:34:40 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2017-11-08 13:34:41 - [MESSAGE][PASSED] - Current window maximized
+
+2017-11-08 13:34:41 - [TEST_STEP][PASSED] - setText: Text 'admin@phptravels.com' is set on object 'Object Repository/loginPHPadmin/emaiTextBox'
+
+2017-11-08 13:34:41 - [MESSAGE][PASSED] - Text 'admin@phptravels.com' is set on object 'Object Repository/loginPHPadmin/emaiTextBox'
+
+2017-11-08 13:34:41 - [TEST_STEP][PASSED] - setText: Text 'demoadmin' is set on object 'Object Repository/loginPHPadmin/passwordTextBox'
+
+2017-11-08 13:34:42 - [MESSAGE][PASSED] - Text 'demoadmin' is set on object 'Object Repository/loginPHPadmin/passwordTextBox'
+
+2017-11-08 13:34:42 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/loginPHPadmin/button_btn btn-primary btn-blo' is clicked on
+
+2017-11-08 13:34:42 - [MESSAGE][PASSED] - Object: 'Object Repository/loginPHPadmin/button_btn btn-primary btn-blo' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/PhpLogout" classname="Test Cases/PhpLogout" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/loginPHPadmin/a_Log Out' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/loginPHPadmin/a_Log Out' located by 'By.xpath: //a[count(. | //*[@href = 'http://www.phptravels.net/admin/logout']) = count(//*[@href = 'http://www.phptravels.net/admin/logout'])][count(. | //*[text() = ' Log Out']) = count(//*[text() = ' Log Out'])][count(. | /html[1]/body[@class=&quot;pace-done&quot;]/div[@class=&quot;wrapper&quot;]/header[1]/nav[@class=&quot;navbar navbar-fixed-top navbar-super social-navbar&quot;]/div[3]/ul[@class=&quot;nav navbar-nav navbar-right&quot;]/li[@class=&quot;dropdown open&quot;]/ul[@class=&quot;dropdown-menu&quot;]/li[2]/a[1]) = count(/html[1]/body[@class=&quot;pace-done&quot;]/div[@class=&quot;wrapper&quot;]/header[1]/nav[@class=&quot;navbar navbar-fixed-top navbar-super social-navbar&quot;]/div[3]/ul[@class=&quot;nav navbar-nav navbar-right&quot;]/li[@class=&quot;dropdown open&quot;]/ul[@class=&quot;dropdown-menu&quot;]/li[2]/a[1])]' not found)"/>
+         <system-out><![CDATA[2017-11-08 13:34:42 - [TEST_CASE][FAILED] - Test Cases/PhpLogout: Test Cases/PhpLogout FAILED because (of) Unable to click on object 'Object Repository/loginPHPadmin/a_Log Out' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/loginPHPadmin/a_Log Out' located by 'By.xpath: //a[count(. | //*[@href = 'http://www.phptravels.net/admin/logout']) = count(//*[@href = 'http://www.phptravels.net/admin/logout'])][count(. | //*[text() = ' Log Out']) = count(//*[text() = ' Log Out'])][count(. | /html[1]/body[@class="pace-done"]/div[@class="wrapper"]/header[1]/nav[@class="navbar navbar-fixed-top navbar-super social-navbar"]/div[3]/ul[@class="nav navbar-nav navbar-right"]/li[@class="dropdown open"]/ul[@class="dropdown-menu"]/li[2]/a[1]) = count(/html[1]/body[@class="pace-done"]/div[@class="wrapper"]/header[1]/nav[@class="navbar navbar-fixed-top navbar-super social-navbar"]/div[3]/ul[@class="nav navbar-nav navbar-right"]/li[@class="dropdown open"]/ul[@class="dropdown-menu"]/li[2]/a[1])]' not found)
+
+2017-11-08 13:34:42 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2017-11-08 13:34:42 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2017-11-08 13:34:42 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/loginPHPadmin/i_fa fa-caret-down fa-lg' is clicked on
+
+2017-11-08 13:34:45 - [MESSAGE][PASSED] - Object: 'Object Repository/loginPHPadmin/i_fa fa-caret-down fa-lg' is clicked on
+
+2017-11-08 13:34:45 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/loginPHPadmin/a_Log Out' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/loginPHPadmin/a_Log Out' located by 'By.xpath: //a[count(. | //*[@href = 'http://www.phptravels.net/admin/logout']) = count(//*[@href = 'http://www.phptravels.net/admin/logout'])][count(. | //*[text() = ' Log Out']) = count(//*[text() = ' Log Out'])][count(. | /html[1]/body[@class="pace-done"]/div[@class="wrapper"]/header[1]/nav[@class="navbar navbar-fixed-top navbar-super social-navbar"]/div[3]/ul[@class="nav navbar-nav navbar-right"]/li[@class="dropdown open"]/ul[@class="dropdown-menu"]/li[2]/a[1]) = count(/html[1]/body[@class="pace-done"]/div[@class="wrapper"]/header[1]/nav[@class="navbar navbar-fixed-top navbar-super social-navbar"]/div[3]/ul[@class="nav navbar-nav navbar-right"]/li[@class="dropdown open"]/ul[@class="dropdown-menu"]/li[2]/a[1])]' not found)
+
+2017-11-08 13:35:23 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/loginPHPadmin/a_Log Out' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/loginPHPadmin/a_Log Out' located by 'By.xpath: //a[count(. | //*[@href = 'http://www.phptravels.net/admin/logout']) = count(//*[@href = 'http://www.phptravels.net/admin/logout'])][count(. | //*[text() = ' Log Out']) = count(//*[text() = ' Log Out'])][count(. | /html[1]/body[@class="pace-done"]/div[@class="wrapper"]/header[1]/nav[@class="navbar navbar-fixed-top navbar-super social-navbar"]/div[3]/ul[@class="nav navbar-nav navbar-right"]/li[@class="dropdown open"]/ul[@class="dropdown-menu"]/li[2]/a[1]) = count(/html[1]/body[@class="pace-done"]/div[@class="wrapper"]/header[1]/nav[@class="navbar navbar-fixed-top navbar-super social-navbar"]/div[3]/ul[@class="nav navbar-nav navbar-right"]/li[@class="dropdown open"]/ul[@class="dropdown-menu"]/li[2]/a[1])]' not found)
+[[ATTACHMENT|C:\\Users\\QH_05\\Katalon Studio\\Acme\\Reports\\LoginLogoutPhp\\20171108_133431\\1510144522869.png]]]]></system-out>
+         <system-err><![CDATA[2017-11-08 13:34:42 - [TEST_CASE][FAILED] - Test Cases/PhpLogout: Test Cases/PhpLogout FAILED because (of) Unable to click on object 'Object Repository/loginPHPadmin/a_Log Out' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/loginPHPadmin/a_Log Out' located by 'By.xpath: //a[count(. | //*[@href = 'http://www.phptravels.net/admin/logout']) = count(//*[@href = 'http://www.phptravels.net/admin/logout'])][count(. | //*[text() = ' Log Out']) = count(//*[text() = ' Log Out'])][count(. | /html[1]/body[@class="pace-done"]/div[@class="wrapper"]/header[1]/nav[@class="navbar navbar-fixed-top navbar-super social-navbar"]/div[3]/ul[@class="nav navbar-nav navbar-right"]/li[@class="dropdown open"]/ul[@class="dropdown-menu"]/li[2]/a[1]) = count(/html[1]/body[@class="pace-done"]/div[@class="wrapper"]/header[1]/nav[@class="navbar navbar-fixed-top navbar-super social-navbar"]/div[3]/ul[@class="nav navbar-nav navbar-right"]/li[@class="dropdown open"]/ul[@class="dropdown-menu"]/li[2]/a[1])]' not found)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2017-11-08 13:34:32 - [TEST_SUITE][FAILED] - LoginLogoutPhp: Test Cases/PhpLogout FAILED because (of) Unable to click on object 'Object Repository/loginPHPadmin/a_Log Out' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/loginPHPadmin/a_Log Out' located by 'By.xpath: //a[count(. | //*[@href = 'http://www.phptravels.net/admin/logout']) = count(//*[@href = 'http://www.phptravels.net/admin/logout'])][count(. | //*[text() = ' Log Out']) = count(//*[text() = ' Log Out'])][count(. | /html[1]/body[@class="pace-done"]/div[@class="wrapper"]/header[1]/nav[@class="navbar navbar-fixed-top navbar-super social-navbar"]/div[3]/ul[@class="nav navbar-nav navbar-right"]/li[@class="dropdown open"]/ul[@class="dropdown-menu"]/li[2]/a[1]) = count(/html[1]/body[@class="pace-done"]/div[@class="wrapper"]/header[1]/nav[@class="navbar navbar-fixed-top navbar-super social-navbar"]/div[3]/ul[@class="nav navbar-nav navbar-right"]/li[@class="dropdown open"]/ul[@class="dropdown-menu"]/li[2]/a[1])]' not found)]]></system-out>
+      <system-err><![CDATA[2017-11-08 13:34:32 - [TEST_SUITE][FAILED] - LoginLogoutPhp: Test Cases/PhpLogout FAILED because (of) Unable to click on object 'Object Repository/loginPHPadmin/a_Log Out' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/loginPHPadmin/a_Log Out' located by 'By.xpath: //a[count(. | //*[@href = 'http://www.phptravels.net/admin/logout']) = count(//*[@href = 'http://www.phptravels.net/admin/logout'])][count(. | //*[text() = ' Log Out']) = count(//*[text() = ' Log Out'])][count(. | /html[1]/body[@class="pace-done"]/div[@class="wrapper"]/header[1]/nav[@class="navbar navbar-fixed-top navbar-super social-navbar"]/div[3]/ul[@class="nav navbar-nav navbar-right"]/li[@class="dropdown open"]/ul[@class="dropdown-menu"]/li[2]/a[1]) = count(/html[1]/body[@class="pace-done"]/div[@class="wrapper"]/header[1]/nav[@class="navbar navbar-fixed-top navbar-super social-navbar"]/div[3]/ul[@class="nav navbar-nav navbar-right"]/li[@class="dropdown open"]/ul[@class="dropdown-menu"]/li[2]/a[1])]' not found)]]></system-err>
+   </testsuite>
+</testsuites>

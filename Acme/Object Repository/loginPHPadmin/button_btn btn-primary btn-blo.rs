@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_btn btn-primary btn-blo</name>
+   <tag></tag>
+   <elementGuidId>8e40d9f2-44d3-4790-8816-a4b04447b544</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//button[count(. | //*[@data-wow-duration = '2s']) = count(//*[@data-wow-duration = '2s'])][count(. | //*[@data-wow-delay = 's']) = count(//*[@data-wow-delay = 's'])][count(. | //*[@type = 'submit']) = count(//*[@type = 'submit'])][count(. | //*[@class = 'btn btn-primary btn-block ladda-button fadeIn animated']) = count(//*[@class = 'btn btn-primary btn-block ladda-button fadeIn animated'])][count(. | //*[@data-style = 'zoom-in']) = count(//*[@data-style = 'zoom-in'])]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-wow-duration</name>
+      <type>Main</type>
+      <value>2s</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-wow-delay</name>
+      <type>Main</type>
+      <value>s</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>submit</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>btn btn-primary btn-block ladda-button fadeIn animated</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-style</name>
+      <type>Main</type>
+      <value>zoom-in</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/div[@class=&quot;col-lg-8 col-md-8&quot;]/div[@class=&quot;col-md-6&quot;]/form[@class=&quot;form-signin form-horizontal wow fadeIn animated animated&quot;]/button[@class=&quot;btn btn-primary btn-block ladda-button fadeIn animated&quot;]</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>css</name>
+      <type>Main</type>
+      <value>body > div.col-lg-8.col-md-8 > div.col-md-6 > form.form-signin.form-horizontal.wow.fadeIn.animated.animated > button</value>
+   </webElementProperties>
+</WebElementEntity>

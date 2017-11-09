@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="LoginLogout" time="9" tests="1" failures="1" errors="0">
+   <testsuite name="LoginLogout" tests="1" failures="1" errors="0" time="9" timestamp="2017-11-08 14:29:49" hostname="QH_05 - 192.168.18.128" id="Test Suites/LoginLogout">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\QH_05\\Katalon Studio\\Acme\\Reports\\LoginLogout\\20171108_142920"/>
+         <property name="logFiles" value="C:\\Users\\QH_05\\Katalon Studio\\Acme\\Reports\\LoginLogout\\20171108_142920\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="QH_05 - 192.168.18.128"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.0.1.1"/>
+         <property name="browser" value="Firefox 56.0"/>
+         <property name="hostAddress" value="192.168.18.128"/>
+         <property name="sessionId" value="69654dc0-2e51-4b59-a5d1-2d3267dbea69"/>
+         <property name="seleniumVersion" value="2.53.0"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/LoginAcme" classname="Test Cases/LoginAcme" status="PASSED">
+         <system-out><![CDATA[2017-11-08 14:29:49 - [TEST_CASE][PASSED] - Test Cases/LoginAcme: Test Cases/LoginAcme
+
+2017-11-08 14:29:49 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2017-11-08 14:29:55 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2017-11-08 14:29:55 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://www.acme.qualityhouse.bg/build3/index.php' successfully
+
+2017-11-08 14:29:55 - [MESSAGE][PASSED] - Navigate to 'http://www.acme.qualityhouse.bg/build3/index.php' successfully
+
+2017-11-08 14:29:55 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/manual/a_Login' is clicked on
+
+2017-11-08 14:29:56 - [MESSAGE][PASSED] - Object: 'Object Repository/manual/a_Login' is clicked on
+
+2017-11-08 14:29:56 - [TEST_STEP][PASSED] - setText: Text 'student1' is set on object 'Object Repository/manual/input_username'
+
+2017-11-08 14:29:56 - [MESSAGE][PASSED] - Text 'student1' is set on object 'Object Repository/manual/input_username'
+
+2017-11-08 14:29:56 - [TEST_STEP][PASSED] - setText: Text 'stpass1' is set on object 'Object Repository/manual/input_userpass'
+
+2017-11-08 14:29:56 - [MESSAGE][PASSED] - Text 'stpass1' is set on object 'Object Repository/manual/input_userpass'
+
+2017-11-08 14:29:56 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/manual/input_ses_login' is clicked on
+
+2017-11-08 14:29:57 - [MESSAGE][PASSED] - Object: 'Object Repository/manual/input_ses_login' is clicked on
+
+2017-11-08 14:29:57 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2017-11-08 14:29:57 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Logout" classname="Test Cases/Logout" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/manual/a_Logout' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'DESKTOP-RJBLQNG', ip: '192.168.18.128', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)"/>
+         <system-out><![CDATA[2017-11-08 14:29:58 - [TEST_CASE][FAILED] - Test Cases/Logout: Test Cases/Logout FAILED because (of) Unable to click on object 'Object Repository/manual/a_Logout' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'DESKTOP-RJBLQNG', ip: '192.168.18.128', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2017-11-08 14:29:58 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/manual/a_Logout' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'DESKTOP-RJBLQNG', ip: '192.168.18.128', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2017-11-08 14:29:58 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2017-11-08 14:29:58 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/manual/a_Logout' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'DESKTOP-RJBLQNG', ip: '192.168.18.128', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)]]></system-out>
+         <system-err><![CDATA[2017-11-08 14:29:58 - [TEST_CASE][FAILED] - Test Cases/Logout: Test Cases/Logout FAILED because (of) Unable to click on object 'Object Repository/manual/a_Logout' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'DESKTOP-RJBLQNG', ip: '192.168.18.128', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2017-11-08 14:29:49 - [TEST_SUITE][FAILED] - LoginLogout: Test Cases/Logout FAILED because (of) Unable to click on object 'Object Repository/manual/a_Logout' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'DESKTOP-RJBLQNG', ip: '192.168.18.128', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)]]></system-out>
+      <system-err><![CDATA[2017-11-08 14:29:49 - [TEST_SUITE][FAILED] - LoginLogout: Test Cases/Logout FAILED because (of) Unable to click on object 'Object Repository/manual/a_Logout' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'DESKTOP-RJBLQNG', ip: '192.168.18.128', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)]]></system-err>
+   </testsuite>
+</testsuites>

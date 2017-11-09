@@ -1,0 +1,16 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+LoginLogout,Firefox 56.0,,2017-11-09 10:06:57,2017-11-09 10:07:06,8.522s,PASSED
+,,,,,,
+Test Cases/LoginAcme,Firefox 56.0,,2017-11-09 10:06:57,2017-11-09 10:07:04,6.891s,PASSED
+openBrowser,Firefox 56.0,,2017-11-09 10:06:58,2017-11-09 10:07:02,4.611s,PASSED
+navigateToUrl,Firefox 56.0,,2017-11-09 10:07:02,2017-11-09 10:07:03,0.706s,PASSED
+click,Firefox 56.0,,2017-11-09 10:07:03,2017-11-09 10:07:03,0.339s,PASSED
+setText,Firefox 56.0,,2017-11-09 10:07:03,2017-11-09 10:07:04,0.188s,PASSED
+setText,Firefox 56.0,,2017-11-09 10:07:04,2017-11-09 10:07:04,0.273s,PASSED
+click,Firefox 56.0,,2017-11-09 10:07:04,2017-11-09 10:07:04,0.290s,PASSED
+,,,,,,
+Test Cases/Logout,Firefox 56.0,,2017-11-09 10:07:04,2017-11-09 10:07:05,1.205s,PASSED
+click,Firefox 56.0,,2017-11-09 10:07:05,2017-11-09 10:07:05,0.201s,PASSED
+click,Firefox 56.0,,2017-11-09 10:07:05,2017-11-09 10:07:05,0.238s,PASSED
+verifyTextPresent,Firefox 56.0,,2017-11-09 10:07:05,2017-11-09 10:07:05,0.099s,PASSED
+closeBrowser,Firefox 56.0,,2017-11-09 10:07:05,2017-11-09 10:07:05,0.420s,PASSED
