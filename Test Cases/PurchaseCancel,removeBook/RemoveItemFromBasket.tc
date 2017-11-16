@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Cancel purchase - one item</description>
+   <name>RemoveItemFromBasket</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>5f1c1aec-341a-4010-9df8-6c3fdc3d899a</testCaseGuid>
+</TestCaseEntity>

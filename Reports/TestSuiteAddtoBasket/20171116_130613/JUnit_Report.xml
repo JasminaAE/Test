@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TestSuiteAddtoBasket" time="95" tests="3" failures="3" errors="0">
+   <testsuite name="TestSuiteAddtoBasket" tests="3" failures="3" errors="0" time="95" timestamp="2017-11-16 13:06:15" hostname="QH_05 - 192.168.18.128" id="Test Suites/TestSuiteAddtoBasket">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\QH_05\\Katalon Studio\\Acme\\Reports\\TestSuiteAddtoBasket\\20171116_130613"/>
+         <property name="logFiles" value="C:\\Users\\QH_05\\Katalon Studio\\Acme\\Reports\\TestSuiteAddtoBasket\\20171116_130613\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\QH_05\\Katalon Studio\\Acme\\Reports\\TestSuiteAddtoBasket\\20171116_130613\\1510834011804.png, C:\\Users\\QH_05\\Katalon Studio\\Acme\\Reports\\TestSuiteAddtoBasket\\20171116_130613\\1510834046625.png, C:\\Users\\QH_05\\Katalon Studio\\Acme\\Reports\\TestSuiteAddtoBasket\\20171116_130613\\1510834070048.png"/>
+         <property name="hostName" value="QH_05 - 192.168.18.128"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.0.1.1"/>
+         <property name="browser" value="Chrome 61.0.3163.100"/>
+         <property name="hostAddress" value="192.168.18.128"/>
+         <property name="sessionId" value="a44a2638b369ef314859a12868bff0d0"/>
+         <property name="seleniumVersion" value="2.53.0"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/PurchaseCancel,removeBook/CancelPurchase" classname="Test Cases/PurchaseCancel,removeBook/CancelPurchase" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/cancel purchase/Page_ACME ECOMM  Books/a_Biographies' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/cancel purchase/Page_ACME ECOMM  Books/a_Biographies' located by 'By.xpath: //a[count(. | //*[@class = 'cat-box']) = count(//*[@class = 'cat-box'])][count(. | //*[@href = 'index.php?page=books&amp;category=books-biographies']) = count(//*[@href = 'index.php?page=books&amp;category=books-biographies'])][count(. | //*[text() = 'Biographies']) = count(//*[text() = 'Biographies'])][count(. | id(&quot;product-list&quot;)/div[@class=&quot;cat-wrapper&quot;]/a[@class=&quot;cat-box&quot;]) = count(id(&quot;product-list&quot;)/div[@class=&quot;cat-wrapper&quot;]/a[@class=&quot;cat-box&quot;])]' not found)"/>
+         <system-out><![CDATA[2017-11-16 13:06:15 - [TEST_CASE][FAILED] - Test Cases/PurchaseCancel,removeBook/CancelPurchase: Test Cases/PurchaseCancel,removeBook/CancelPurchase FAILED because (of) Unable to click on object 'Object Repository/cancel purchase/Page_ACME ECOMM  Books/a_Biographies' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/cancel purchase/Page_ACME ECOMM  Books/a_Biographies' located by 'By.xpath: //a[count(. | //*[@class = 'cat-box']) = count(//*[@class = 'cat-box'])][count(. | //*[@href = 'index.php?page=books&category=books-biographies']) = count(//*[@href = 'index.php?page=books&category=books-biographies'])][count(. | //*[text() = 'Biographies']) = count(//*[text() = 'Biographies'])][count(. | id("product-list")/div[@class="cat-wrapper"]/a[@class="cat-box"]) = count(id("product-list")/div[@class="cat-wrapper"]/a[@class="cat-box"])]' not found)
+
+2017-11-16 13:06:16 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2017-11-16 13:06:19 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2017-11-16 13:06:19 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2017-11-16 13:06:20 - [MESSAGE][PASSED] - Current window maximized
+
+2017-11-16 13:06:20 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://www.acme.qualityhouse.bg/build3/index.php' successfully
+
+2017-11-16 13:06:21 - [MESSAGE][PASSED] - Navigate to 'http://www.acme.qualityhouse.bg/build3/index.php' successfully
+
+2017-11-16 13:06:21 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/cancel purchase/Page_ACME ECOMM  Home/a_Books' is clicked on
+
+2017-11-16 13:06:21 - [MESSAGE][PASSED] - Object: 'Object Repository/cancel purchase/Page_ACME ECOMM  Home/a_Books' is clicked on
+
+2017-11-16 13:06:21 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/cancel purchase/Page_ACME ECOMM  Books/a_Biographies' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/cancel purchase/Page_ACME ECOMM  Books/a_Biographies' located by 'By.xpath: //a[count(. | //*[@class = 'cat-box']) = count(//*[@class = 'cat-box'])][count(. | //*[@href = 'index.php?page=books&category=books-biographies']) = count(//*[@href = 'index.php?page=books&category=books-biographies'])][count(. | //*[text() = 'Biographies']) = count(//*[text() = 'Biographies'])][count(. | id("product-list")/div[@class="cat-wrapper"]/a[@class="cat-box"]) = count(id("product-list")/div[@class="cat-wrapper"]/a[@class="cat-box"])]' not found)
+
+2017-11-16 13:06:52 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/cancel purchase/Page_ACME ECOMM  Books/a_Biographies' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/cancel purchase/Page_ACME ECOMM  Books/a_Biographies' located by 'By.xpath: //a[count(. | //*[@class = 'cat-box']) = count(//*[@class = 'cat-box'])][count(. | //*[@href = 'index.php?page=books&category=books-biographies']) = count(//*[@href = 'index.php?page=books&category=books-biographies'])][count(. | //*[text() = 'Biographies']) = count(//*[text() = 'Biographies'])][count(. | id("product-list")/div[@class="cat-wrapper"]/a[@class="cat-box"]) = count(id("product-list")/div[@class="cat-wrapper"]/a[@class="cat-box"])]' not found)
+[[ATTACHMENT|C:\\Users\\QH_05\\Katalon Studio\\Acme\\Reports\\TestSuiteAddtoBasket\\20171116_130613\\1510834011804.png]]]]></system-out>
+         <system-err><![CDATA[2017-11-16 13:06:15 - [TEST_CASE][FAILED] - Test Cases/PurchaseCancel,removeBook/CancelPurchase: Test Cases/PurchaseCancel,removeBook/CancelPurchase FAILED because (of) Unable to click on object 'Object Repository/cancel purchase/Page_ACME ECOMM  Books/a_Biographies' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/cancel purchase/Page_ACME ECOMM  Books/a_Biographies' located by 'By.xpath: //a[count(. | //*[@class = 'cat-box']) = count(//*[@class = 'cat-box'])][count(. | //*[@href = 'index.php?page=books&category=books-biographies']) = count(//*[@href = 'index.php?page=books&category=books-biographies'])][count(. | //*[text() = 'Biographies']) = count(//*[text() = 'Biographies'])][count(. | id("product-list")/div[@class="cat-wrapper"]/a[@class="cat-box"]) = count(id("product-list")/div[@class="cat-wrapper"]/a[@class="cat-box"])]' not found)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/PurchaseCancel,removeBook/CancelPurchaseforTestSuite" classname="Test Cases/PurchaseCancel,removeBook/CancelPurchaseforTestSuite" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/PurchaseBook/input_ses_login' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/PurchaseBook/input_ses_login' located by 'By.xpath: //input[count(. | //*[@class = 'formbtn']) = count(//*[@class = 'formbtn'])][count(. | //*[@type = 'submit']) = count(//*[@type = 'submit'])][count(. | //*[@name = 'ses_login']) = count(//*[@name = 'ses_login'])][count(. | //*[@value = 'Login']) = count(//*[@value = 'Login'])][count(. | id(&quot;main-big-col&quot;)/b[1]/form[1]/input[@class=&quot;formbtn&quot;]) = count(id(&quot;main-big-col&quot;)/b[1]/form[1]/input[@class=&quot;formbtn&quot;])]' not found)"/>
+         <system-out><![CDATA[2017-11-16 13:06:52 - [TEST_CASE][FAILED] - Test Cases/PurchaseCancel,removeBook/CancelPurchaseforTestSuite: Test Cases/PurchaseCancel,removeBook/CancelPurchaseforTestSuite FAILED because (of) Unable to click on object 'Object Repository/PurchaseBook/input_ses_login' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/PurchaseBook/input_ses_login' located by 'By.xpath: //input[count(. | //*[@class = 'formbtn']) = count(//*[@class = 'formbtn'])][count(. | //*[@type = 'submit']) = count(//*[@type = 'submit'])][count(. | //*[@name = 'ses_login']) = count(//*[@name = 'ses_login'])][count(. | //*[@value = 'Login']) = count(//*[@value = 'Login'])][count(. | id("main-big-col")/b[1]/form[1]/input[@class="formbtn"]) = count(id("main-big-col")/b[1]/form[1]/input[@class="formbtn"])]' not found)
+
+2017-11-16 13:06:52 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/cancel purchase/Page_ACME ECOMM  Home/a_Books' is clicked on
+
+2017-11-16 13:06:52 - [MESSAGE][PASSED] - Object: 'Object Repository/cancel purchase/Page_ACME ECOMM  Home/a_Books' is clicked on
+
+2017-11-16 13:06:52 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'http://www.acme.qualityhouse.bg/build3/index.php'
+
+2017-11-16 13:06:52 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2017-11-16 13:06:56 - [MESSAGE][PASSED] - Browser is opened with url: 'http://www.acme.qualityhouse.bg/build3/index.php'
+
+2017-11-16 13:06:56 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/PurchaseBook/input_ses_login' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/PurchaseBook/input_ses_login' located by 'By.xpath: //input[count(. | //*[@class = 'formbtn']) = count(//*[@class = 'formbtn'])][count(. | //*[@type = 'submit']) = count(//*[@type = 'submit'])][count(. | //*[@name = 'ses_login']) = count(//*[@name = 'ses_login'])][count(. | //*[@value = 'Login']) = count(//*[@value = 'Login'])][count(. | id("main-big-col")/b[1]/form[1]/input[@class="formbtn"]) = count(id("main-big-col")/b[1]/form[1]/input[@class="formbtn"])]' not found)
+
+2017-11-16 13:07:26 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/PurchaseBook/input_ses_login' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/PurchaseBook/input_ses_login' located by 'By.xpath: //input[count(. | //*[@class = 'formbtn']) = count(//*[@class = 'formbtn'])][count(. | //*[@type = 'submit']) = count(//*[@type = 'submit'])][count(. | //*[@name = 'ses_login']) = count(//*[@name = 'ses_login'])][count(. | //*[@value = 'Login']) = count(//*[@value = 'Login'])][count(. | id("main-big-col")/b[1]/form[1]/input[@class="formbtn"]) = count(id("main-big-col")/b[1]/form[1]/input[@class="formbtn"])]' not found)
+[[ATTACHMENT|C:\\Users\\QH_05\\Katalon Studio\\Acme\\Reports\\TestSuiteAddtoBasket\\20171116_130613\\1510834046625.png]]]]></system-out>
+         <system-err><![CDATA[2017-11-16 13:06:52 - [TEST_CASE][FAILED] - Test Cases/PurchaseCancel,removeBook/CancelPurchaseforTestSuite: Test Cases/PurchaseCancel,removeBook/CancelPurchaseforTestSuite FAILED because (of) Unable to click on object 'Object Repository/PurchaseBook/input_ses_login' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/PurchaseBook/input_ses_login' located by 'By.xpath: //input[count(. | //*[@class = 'formbtn']) = count(//*[@class = 'formbtn'])][count(. | //*[@type = 'submit']) = count(//*[@type = 'submit'])][count(. | //*[@name = 'ses_login']) = count(//*[@name = 'ses_login'])][count(. | //*[@value = 'Login']) = count(//*[@value = 'Login'])][count(. | id("main-big-col")/b[1]/form[1]/input[@class="formbtn"]) = count(id("main-big-col")/b[1]/form[1]/input[@class="formbtn"])]' not found)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/PurchaseCancel,removeBook/NumberOfOneItemAddedtoTheBasket" classname="Test Cases/PurchaseCancel,removeBook/NumberOfOneItemAddedtoTheBasket" status="PASSED">
+         <system-out><![CDATA[2017-11-16 13:07:26 - [TEST_CASE][PASSED] - Test Cases/PurchaseCancel,removeBook/NumberOfOneItemAddedtoTheBasket: Test Cases/PurchaseCancel,removeBook/NumberOfOneItemAddedtoTheBasket
+
+2017-11-16 13:07:27 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2017-11-16 13:07:27 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2017-11-16 13:07:29 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2017-11-16 13:07:29 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2017-11-16 13:07:30 - [MESSAGE][PASSED] - Current window maximized
+
+2017-11-16 13:07:30 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://www.acme.qualityhouse.bg/build3/index.php' successfully
+
+2017-11-16 13:07:31 - [MESSAGE][PASSED] - Navigate to 'http://www.acme.qualityhouse.bg/build3/index.php' successfully
+
+2017-11-16 13:07:31 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/NumberOfItems/Page_ACME ECOMM  Home/a_Books' is clicked on
+
+2017-11-16 13:07:31 - [MESSAGE][PASSED] - Object: 'Object Repository/NumberOfItems/Page_ACME ECOMM  Home/a_Books' is clicked on
+
+2017-11-16 13:07:31 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/NumberOfItems/Page_ACME ECOMM  Books/a_Art' is clicked on
+
+2017-11-16 13:07:32 - [MESSAGE][PASSED] - Object: 'Object Repository/NumberOfItems/Page_ACME ECOMM  Books/a_Art' is clicked on
+
+2017-11-16 13:07:32 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/NumberOfItems/Page_ACME ECOMM  BooksArt/a_add to basket' is clicked on
+
+2017-11-16 13:07:32 - [MESSAGE][PASSED] - Object: 'Object Repository/NumberOfItems/Page_ACME ECOMM  BooksArt/a_add to basket' is clicked on
+
+2017-11-16 13:07:32 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/NumberOfItems/Page_ACME ECOMM  BooksArt/a_add to basket' is clicked on
+
+2017-11-16 13:07:32 - [MESSAGE][PASSED] - Object: 'Object Repository/NumberOfItems/Page_ACME ECOMM  BooksArt/a_add to basket' is clicked on
+
+2017-11-16 13:07:32 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/NumberOfItems/Page_ACME ECOMM  BooksArt/a_add to basket' is clicked on
+
+2017-11-16 13:07:32 - [MESSAGE][PASSED] - Object: 'Object Repository/NumberOfItems/Page_ACME ECOMM  BooksArt/a_add to basket' is clicked on
+
+2017-11-16 13:07:32 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/NumberOfItems/Page_ACME ECOMM  BooksArt/a_add to basket' is clicked on
+
+2017-11-16 13:07:33 - [MESSAGE][PASSED] - Object: 'Object Repository/NumberOfItems/Page_ACME ECOMM  BooksArt/a_add to basket' is clicked on
+
+2017-11-16 13:07:33 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/NumberOfItems/Page_ACME ECOMM  BooksArt/a_Basket' is clicked on
+
+2017-11-16 13:07:33 - [MESSAGE][PASSED] - Object: 'Object Repository/NumberOfItems/Page_ACME ECOMM  BooksArt/a_Basket' is clicked on
+
+2017-11-16 13:07:33 - [TEST_STEP][PASSED] - verifyTextPresent: Text '4' is present on page  using regular expression
+
+2017-11-16 13:07:33 - [MESSAGE][PASSED] - Text '4' is present on page  using regular expression
+
+2017-11-16 13:07:33 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2017-11-16 13:07:34 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/PurchaseCancel,removeBook/PurchaseBook" classname="Test Cases/PurchaseCancel,removeBook/PurchaseBook" status="PASSED">
+         <system-out><![CDATA[2017-11-16 13:07:34 - [TEST_CASE][PASSED] - Test Cases/PurchaseCancel,removeBook/PurchaseBook: Test Cases/PurchaseCancel,removeBook/PurchaseBook
+
+2017-11-16 13:07:34 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2017-11-16 13:07:36 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2017-11-16 13:07:36 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://www.acme.qualityhouse.bg/build3/index.php' successfully
+
+2017-11-16 13:07:36 - [MESSAGE][PASSED] - Navigate to 'http://www.acme.qualityhouse.bg/build3/index.php' successfully
+
+2017-11-16 13:07:36 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/PurchaseBook/a_Books' is clicked on
+
+2017-11-16 13:07:37 - [MESSAGE][PASSED] - Object: 'Object Repository/PurchaseBook/a_Books' is clicked on
+
+2017-11-16 13:07:37 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/PurchaseBook/a_Art' is clicked on
+
+2017-11-16 13:07:37 - [MESSAGE][PASSED] - Object: 'Object Repository/PurchaseBook/a_Art' is clicked on
+
+2017-11-16 13:07:37 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/PurchaseBook/a_add to basket' is clicked on
+
+2017-11-16 13:07:37 - [MESSAGE][PASSED] - Object: 'Object Repository/PurchaseBook/a_add to basket' is clicked on
+
+2017-11-16 13:07:37 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/PurchaseBook/a_Basket (1)' is clicked on
+
+2017-11-16 13:07:37 - [MESSAGE][PASSED] - Object: 'Object Repository/PurchaseBook/a_Basket (1)' is clicked on
+
+2017-11-16 13:07:37 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/PurchaseBook/a_Checkout' is clicked on
+
+2017-11-16 13:07:38 - [MESSAGE][PASSED] - Object: 'Object Repository/PurchaseBook/a_Checkout' is clicked on
+
+2017-11-16 13:07:38 - [TEST_STEP][PASSED] - acceptAlert: Alert accepted
+
+2017-11-16 13:07:38 - [MESSAGE][PASSED] - Alert accepted
+
+2017-11-16 13:07:38 - [TEST_STEP][PASSED] - setText: Text 'student1' is set on object 'Object Repository/PurchaseBook/input_username'
+
+2017-11-16 13:07:38 - [MESSAGE][PASSED] - Text 'student1' is set on object 'Object Repository/PurchaseBook/input_username'
+
+2017-11-16 13:07:38 - [TEST_STEP][PASSED] - setText: Text 'stpass1' is set on object 'Object Repository/PurchaseBook/input_userpass'
+
+2017-11-16 13:07:38 - [MESSAGE][PASSED] - Text 'stpass1' is set on object 'Object Repository/PurchaseBook/input_userpass'
+
+2017-11-16 13:07:38 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/PurchaseBook/input_ses_login' is clicked on
+
+2017-11-16 13:07:38 - [MESSAGE][PASSED] - Object: 'Object Repository/PurchaseBook/input_ses_login' is clicked on
+
+2017-11-16 13:07:38 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/PurchaseBook/a_Confirm Purchase' is clicked on
+
+2017-11-16 13:07:39 - [MESSAGE][PASSED] - Object: 'Object Repository/PurchaseBook/a_Confirm Purchase' is clicked on
+
+2017-11-16 13:07:39 - [TEST_STEP][PASSED] - acceptAlert: Alert accepted
+
+2017-11-16 13:07:39 - [MESSAGE][PASSED] - Alert accepted
+
+2017-11-16 13:07:39 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'Thank you for your purchase!' is present on page 
+
+2017-11-16 13:07:39 - [MESSAGE][PASSED] - Text 'Thank you for your purchase!' is present on page 
+
+2017-11-16 13:07:39 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/PurchaseBook/a_Go to Home page' is clicked on
+
+2017-11-16 13:07:39 - [MESSAGE][PASSED] - Object: 'Object Repository/PurchaseBook/a_Go to Home page' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/PurchaseCancel,removeBook/RemoveItemFromBasket" classname="Test Cases/PurchaseCancel,removeBook/RemoveItemFromBasket" status="PASSED">
+         <system-out><![CDATA[2017-11-16 13:07:39 - [TEST_CASE][PASSED] - Test Cases/PurchaseCancel,removeBook/RemoveItemFromBasket: Test Cases/PurchaseCancel,removeBook/RemoveItemFromBasket
+
+2017-11-16 13:07:39 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2017-11-16 13:07:39 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2017-11-16 13:07:42 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2017-11-16 13:07:42 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://www.acme.qualityhouse.bg/build3/index.php' successfully
+
+2017-11-16 13:07:43 - [MESSAGE][PASSED] - Navigate to 'http://www.acme.qualityhouse.bg/build3/index.php' successfully
+
+2017-11-16 13:07:43 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/RemoveItemFromBasket/Page_ACME ECOMM  Home/a_CDs' is clicked on
+
+2017-11-16 13:07:43 - [MESSAGE][PASSED] - Object: 'Object Repository/RemoveItemFromBasket/Page_ACME ECOMM  Home/a_CDs' is clicked on
+
+2017-11-16 13:07:43 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/RemoveItemFromBasket/Page_ACME ECOMM  CDs/a_Blues' is clicked on
+
+2017-11-16 13:07:43 - [MESSAGE][PASSED] - Object: 'Object Repository/RemoveItemFromBasket/Page_ACME ECOMM  CDs/a_Blues' is clicked on
+
+2017-11-16 13:07:43 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/RemoveItemFromBasket/Page_ACME ECOMM  CDsBlues/a_add to basket' is clicked on
+
+2017-11-16 13:07:43 - [MESSAGE][PASSED] - Object: 'Object Repository/RemoveItemFromBasket/Page_ACME ECOMM  CDsBlues/a_add to basket' is clicked on
+
+2017-11-16 13:07:43 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/RemoveItemFromBasket/Page_ACME ECOMM  CDsBlues/a_Basket' is clicked on
+
+2017-11-16 13:07:44 - [MESSAGE][PASSED] - Object: 'Object Repository/RemoveItemFromBasket/Page_ACME ECOMM  CDsBlues/a_Basket' is clicked on
+
+2017-11-16 13:07:44 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/RemoveItemFromBasket/Page_ACME ECOMM  Shopping Basket/a_X' is clicked on
+
+2017-11-16 13:07:44 - [MESSAGE][PASSED] - Object: 'Object Repository/RemoveItemFromBasket/Page_ACME ECOMM  Shopping Basket/a_X' is clicked on
+
+2017-11-16 13:07:44 - [TEST_STEP][PASSED] - acceptAlert: Alert accepted
+
+2017-11-16 13:07:44 - [MESSAGE][PASSED] - Alert accepted
+
+2017-11-16 13:07:44 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/RemoveItemFromBasket/Page_ACME ECOMM  Shopping Basket/b_The Shopping Basket is empty' is clicked on
+
+2017-11-16 13:07:44 - [MESSAGE][PASSED] - Object: 'Object Repository/RemoveItemFromBasket/Page_ACME ECOMM  Shopping Basket/b_The Shopping Basket is empty' is clicked on
+
+2017-11-16 13:07:44 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'The Shopping Basket is empty' is present on page  using regular expression
+
+2017-11-16 13:07:44 - [MESSAGE][PASSED] - Text 'The Shopping Basket is empty' is present on page  using regular expression
+
+2017-11-16 13:07:44 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2017-11-16 13:07:45 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/PurchaseCancel,removeBook/VerifyNumberOfDifferentItemsAddedToTheBasket" classname="Test Cases/PurchaseCancel,removeBook/VerifyNumberOfDifferentItemsAddedToTheBasket" status="FAILED">
+         <failure type="FAILED" message="Unable to verify text '2' is present  using regular expression (Root cause: Text '2' is not present on page  using regular expression)"/>
+         <system-out><![CDATA[2017-11-16 13:07:45 - [TEST_CASE][FAILED] - Test Cases/PurchaseCancel,removeBook/VerifyNumberOfDifferentItemsAddedToTheBasket: Test Cases/PurchaseCancel,removeBook/VerifyNumberOfDifferentItemsAddedToTheBasket FAILED because (of) Unable to verify text '2' is present  using regular expression (Root cause: Text '2' is not present on page  using regular expression)
+
+2017-11-16 13:07:45 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2017-11-16 13:07:47 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2017-11-16 13:07:47 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://www.acme.qualityhouse.bg/build3/index.php' successfully
+
+2017-11-16 13:07:48 - [MESSAGE][PASSED] - Navigate to 'http://www.acme.qualityhouse.bg/build3/index.php' successfully
+
+2017-11-16 13:07:48 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/differentItemsAddedToTheBasket/Page_ACME ECOMM  Home/a_Login' is clicked on
+
+2017-11-16 13:07:48 - [MESSAGE][PASSED] - Object: 'Object Repository/differentItemsAddedToTheBasket/Page_ACME ECOMM  Home/a_Login' is clicked on
+
+2017-11-16 13:07:48 - [TEST_STEP][PASSED] - com.acme.login.loginForm.Login: com.acme.login.loginForm.Login is PASSED
+
+2017-11-16 13:07:48 - [MESSAGE][PASSED] - Text 'student1' is set on object 'Object Repository/manual/input_username'
+
+2017-11-16 13:07:48 - [MESSAGE][PASSED] - Text 'stpass1' is set on object 'Object Repository/manual/input_userpass'
+
+2017-11-16 13:07:48 - [MESSAGE][PASSED] - com.acme.login.loginForm.Login is PASSED
+
+2017-11-16 13:07:48 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/differentItemsAddedToTheBasket/Page_ACME ECOMM  Login/a_CDs' is clicked on
+
+2017-11-16 13:07:48 - [MESSAGE][PASSED] - Object: 'Object Repository/differentItemsAddedToTheBasket/Page_ACME ECOMM  Login/a_CDs' is clicked on
+
+2017-11-16 13:07:48 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/differentItemsAddedToTheBasket/Page_ACME ECOMM  CDs/a_Blues' is clicked on
+
+2017-11-16 13:07:49 - [MESSAGE][PASSED] - Object: 'Object Repository/differentItemsAddedToTheBasket/Page_ACME ECOMM  CDs/a_Blues' is clicked on
+
+2017-11-16 13:07:49 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/differentItemsAddedToTheBasket/Page_ACME ECOMM  CDsBlues/b_Blue Nights' is clicked on
+
+2017-11-16 13:07:49 - [MESSAGE][PASSED] - Object: 'Object Repository/differentItemsAddedToTheBasket/Page_ACME ECOMM  CDsBlues/b_Blue Nights' is clicked on
+
+2017-11-16 13:07:49 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/differentItemsAddedToTheBasket/Page_ACME ECOMM  CDs/a_add to basket' is clicked on
+
+2017-11-16 13:07:49 - [MESSAGE][PASSED] - Object: 'Object Repository/differentItemsAddedToTheBasket/Page_ACME ECOMM  CDs/a_add to basket' is clicked on
+
+2017-11-16 13:07:49 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/differentItemsAddedToTheBasket/Page_ACME ECOMM  CDsBlues/a_add to basket' is clicked on
+
+2017-11-16 13:07:49 - [MESSAGE][PASSED] - Object: 'Object Repository/differentItemsAddedToTheBasket/Page_ACME ECOMM  CDsBlues/a_add to basket' is clicked on
+
+2017-11-16 13:07:49 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/differentItemsAddedToTheBasket/Page_ACME ECOMM  CDsBlues/a_Basket' is clicked on
+
+2017-11-16 13:07:49 - [MESSAGE][PASSED] - Object: 'Object Repository/differentItemsAddedToTheBasket/Page_ACME ECOMM  CDsBlues/a_Basket' is clicked on
+
+2017-11-16 13:07:49 - [TEST_STEP][FAILED] - verifyTextPresent: Unable to verify text '2' is present  using regular expression (Root cause: Text '2' is not present on page  using regular expression)
+
+2017-11-16 13:07:50 - [MESSAGE][FAILED] - Text '2' is not present on page  using regular expression
+
+2017-11-16 13:07:50 - [MESSAGE][FAILED] - Unable to verify text '2' is present  using regular expression (Root cause: Text '2' is not present on page  using regular expression)
+[[ATTACHMENT|C:\\Users\\QH_05\\Katalon Studio\\Acme\\Reports\\TestSuiteAddtoBasket\\20171116_130613\\1510834070048.png]]]]></system-out>
+         <system-err><![CDATA[2017-11-16 13:07:45 - [TEST_CASE][FAILED] - Test Cases/PurchaseCancel,removeBook/VerifyNumberOfDifferentItemsAddedToTheBasket: Test Cases/PurchaseCancel,removeBook/VerifyNumberOfDifferentItemsAddedToTheBasket FAILED because (of) Unable to verify text '2' is present  using regular expression (Root cause: Text '2' is not present on page  using regular expression)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2017-11-16 13:06:15 - [TEST_SUITE][FAILED] - TestSuiteAddtoBasket: Test Cases/PurchaseCancel,removeBook/CancelPurchase FAILED because (of) Unable to click on object 'Object Repository/cancel purchase/Page_ACME ECOMM  Books/a_Biographies' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/cancel purchase/Page_ACME ECOMM  Books/a_Biographies' located by 'By.xpath: //a[count(. | //*[@class = 'cat-box']) = count(//*[@class = 'cat-box'])][count(. | //*[@href = 'index.php?page=books&category=books-biographies']) = count(//*[@href = 'index.php?page=books&category=books-biographies'])][count(. | //*[text() = 'Biographies']) = count(//*[text() = 'Biographies'])][count(. | id("product-list")/div[@class="cat-wrapper"]/a[@class="cat-box"]) = count(id("product-list")/div[@class="cat-wrapper"]/a[@class="cat-box"])]' not found)]]></system-out>
+      <system-err><![CDATA[2017-11-16 13:06:15 - [TEST_SUITE][FAILED] - TestSuiteAddtoBasket: Test Cases/PurchaseCancel,removeBook/CancelPurchase FAILED because (of) Unable to click on object 'Object Repository/cancel purchase/Page_ACME ECOMM  Books/a_Biographies' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/cancel purchase/Page_ACME ECOMM  Books/a_Biographies' located by 'By.xpath: //a[count(. | //*[@class = 'cat-box']) = count(//*[@class = 'cat-box'])][count(. | //*[@href = 'index.php?page=books&category=books-biographies']) = count(//*[@href = 'index.php?page=books&category=books-biographies'])][count(. | //*[text() = 'Biographies']) = count(//*[text() = 'Biographies'])][count(. | id("product-list")/div[@class="cat-wrapper"]/a[@class="cat-box"]) = count(id("product-list")/div[@class="cat-wrapper"]/a[@class="cat-box"])]' not found)]]></system-err>
+   </testsuite>
+</testsuites>

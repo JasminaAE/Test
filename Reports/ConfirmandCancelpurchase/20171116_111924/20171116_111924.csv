@@ -1,0 +1,21 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+ConfirmandCancelpurchase,Firefox 56.0,,2017-11-16 11:19:29,2017-11-16 11:20:35,1m - 6.141s,FAILED
+,,,,,,
+"Test Cases/PurchaseCancel,removeBook/PurchaseBook",Firefox 56.0,,2017-11-16 11:19:30,2017-11-16 11:20:04,33.701s,FAILED
+openBrowser,Firefox 56.0,,2017-11-16 11:19:33,2017-11-16 11:20:00,26.872s,PASSED
+navigateToUrl,Firefox 56.0,,2017-11-16 11:20:00,2017-11-16 11:20:00,0.786s,PASSED
+click,Firefox 56.0,,2017-11-16 11:20:00,2017-11-16 11:20:01,0.617s,PASSED
+click,Firefox 56.0,,2017-11-16 11:20:01,2017-11-16 11:20:01,0.372s,PASSED
+click,Firefox 56.0,,2017-11-16 11:20:01,2017-11-16 11:20:02,0.388s,PASSED
+click,Firefox 56.0,,2017-11-16 11:20:02,2017-11-16 11:20:02,0.180s,PASSED
+click,Firefox 56.0,,2017-11-16 11:20:02,2017-11-16 11:20:02,0.272s,PASSED
+acceptAlert,Firefox 56.0,,2017-11-16 11:20:02,2017-11-16 11:20:03,0.254s,PASSED
+setText,Firefox 56.0,,2017-11-16 11:20:03,2017-11-16 11:20:03,0.202s,PASSED
+setText,Firefox 56.0,,2017-11-16 11:20:03,2017-11-16 11:20:03,0.067s,PASSED
+click,Firefox 56.0,,2017-11-16 11:20:03,2017-11-16 11:20:03,0.232s,PASSED
+click,Firefox 56.0,,2017-11-16 11:20:03,2017-11-16 11:20:03,0.083s,PASSED
+acceptAlert,Firefox 56.0,,2017-11-16 11:20:03,2017-11-16 11:20:03,0.043s,PASSED
+verifyTextPresent,Firefox 56.0,,2017-11-16 11:20:03,2017-11-16 11:20:04,0.537s,FAILED
+,,,,,,
+"Test Cases/PurchaseCancel,removeBook/CancelPurchaseforTestSuite",Firefox 56.0,"continuing action after purchising one book, cancel confirmation of purchase another book",2017-11-16 11:20:04,2017-11-16 11:20:34,30.731s,FAILED
+click,Firefox 56.0,,2017-11-16 11:20:04,2017-11-16 11:20:34,30.545s,FAILED

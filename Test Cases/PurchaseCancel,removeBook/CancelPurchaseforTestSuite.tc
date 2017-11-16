@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>continuing action after purchising one book, cancel confirmation of purchase another book</description>
+   <name>CancelPurchaseforTestSuite</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c43e9692-92c8-4884-87ca-6a6a53907799</testCaseGuid>
+</TestCaseEntity>

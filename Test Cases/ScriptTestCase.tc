@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>pravljenje test case u script mode</description>
+   <name>ScriptTestCase</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b371fdff-a05c-4759-8891-7c768cfa7d71</testCaseGuid>
+</TestCaseEntity>

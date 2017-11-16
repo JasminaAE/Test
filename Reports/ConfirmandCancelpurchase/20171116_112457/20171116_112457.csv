@@ -1,0 +1,29 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+ConfirmandCancelpurchase,Firefox 56.0,,2017-11-16 11:25:02,2017-11-16 11:25:38,36.189s,FAILED
+,,,,,,
+"Test Cases/PurchaseCancel,removeBook/PurchaseBook",Firefox 56.0,,2017-11-16 11:25:03,2017-11-16 11:25:36,33.193s,PASSED
+openBrowser,Firefox 56.0,,2017-11-16 11:25:05,2017-11-16 11:25:33,27.628s,PASSED
+navigateToUrl,Firefox 56.0,,2017-11-16 11:25:33,2017-11-16 11:25:34,0.564s,PASSED
+click,Firefox 56.0,,2017-11-16 11:25:34,2017-11-16 11:25:34,0.307s,PASSED
+click,Firefox 56.0,,2017-11-16 11:25:34,2017-11-16 11:25:34,0.224s,PASSED
+click,Firefox 56.0,,2017-11-16 11:25:34,2017-11-16 11:25:34,0.232s,PASSED
+click,Firefox 56.0,,2017-11-16 11:25:34,2017-11-16 11:25:35,0.175s,PASSED
+click,Firefox 56.0,,2017-11-16 11:25:35,2017-11-16 11:25:35,0.098s,PASSED
+acceptAlert,Firefox 56.0,,2017-11-16 11:25:35,2017-11-16 11:25:35,0.108s,PASSED
+setText,Firefox 56.0,,2017-11-16 11:25:35,2017-11-16 11:25:35,0.232s,PASSED
+setText,Firefox 56.0,,2017-11-16 11:25:35,2017-11-16 11:25:35,0.263s,PASSED
+click,Firefox 56.0,,2017-11-16 11:25:35,2017-11-16 11:25:35,0.192s,PASSED
+click,Firefox 56.0,,2017-11-16 11:25:35,2017-11-16 11:25:35,0.076s,PASSED
+acceptAlert,Firefox 56.0,,2017-11-16 11:25:35,2017-11-16 11:25:36,0.052s,PASSED
+verifyTextPresent,Firefox 56.0,,2017-11-16 11:25:36,2017-11-16 11:25:36,0.208s,PASSED
+click,Firefox 56.0,,2017-11-16 11:25:36,2017-11-16 11:25:36,0.156s,PASSED
+,,,,,,
+"Test Cases/PurchaseCancel,removeBook/CancelPurchaseforTestSuite",Firefox 56.0,"continuing action after purchising one book, cancel confirmation of purchase another book",2017-11-16 11:25:36,2017-11-16 11:25:37,1.478s,FAILED
+click,Firefox 56.0,,2017-11-16 11:25:36,2017-11-16 11:25:36,0.180s,PASSED
+click,Firefox 56.0,,2017-11-16 11:25:36,2017-11-16 11:25:37,0.164s,PASSED
+click,Firefox 56.0,,2017-11-16 11:25:37,2017-11-16 11:25:37,0.260s,PASSED
+click,Firefox 56.0,,2017-11-16 11:25:37,2017-11-16 11:25:37,0.155s,PASSED
+click,Firefox 56.0,,2017-11-16 11:25:37,2017-11-16 11:25:37,0.095s,PASSED
+acceptAlert,Firefox 56.0,,2017-11-16 11:25:37,2017-11-16 11:25:37,0.060s,PASSED
+click,Firefox 56.0,,2017-11-16 11:25:37,2017-11-16 11:25:37,0.250s,PASSED
+verifyTextPresent,Firefox 56.0,"Page is misssing, error message is displayed.That is the reason why this test fail.",2017-11-16 11:25:37,2017-11-16 11:25:37,0.119s,FAILED

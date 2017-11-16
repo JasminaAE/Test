@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="LoginEditForm" time="76" tests="0" failures="2" errors="0">
+   <testsuite name="LoginEditForm" tests="0" failures="2" errors="0" time="76" timestamp="2017-11-10 11:40:45" hostname="QH_05 - 192.168.18.128" id="Test Suites/LoginEditForm">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\QH_05\\Katalon Studio\\Acme\\Reports\\LoginEditForm\\20171110_114044"/>
+         <property name="logFiles" value="C:\\Users\\QH_05\\Katalon Studio\\Acme\\Reports\\LoginEditForm\\20171110_114044\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\QH_05\\Katalon Studio\\Acme\\Reports\\LoginEditForm\\20171110_114044\\1510310482976.png, C:\\Users\\QH_05\\Katalon Studio\\Acme\\Reports\\LoginEditForm\\20171110_114044\\1510310521001.png"/>
+         <property name="hostName" value="QH_05 - 192.168.18.128"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.0.1.1"/>
+         <property name="browser" value="Firefox 56.0"/>
+         <property name="hostAddress" value="192.168.18.128"/>
+         <property name="sessionId" value="883493b2-e082-4c94-acca-195cc2531d69"/>
+         <property name="seleniumVersion" value="2.53.0"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/EditProfile" classname="Test Cases/EditProfile" status="FAILED">
+         <failure type="FAILED" message="Unable to set text '060147258' of object 'Object Repository/EditProfile/Page_ACME ECOMM  Edit Profile/Page_ACME ECOMM  Edit Profile/input_cPhone' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/EditProfile/Page_ACME ECOMM  Edit Profile/Page_ACME ECOMM  Edit Profile/input_cPhone' located by 'By.xpath: //input[count(. | //*[@class = 'nor']) = count(//*[@class = 'nor'])][count(. | //*[@type = 'text']) = count(//*[@type = 'text'])][count(. | //*[@name = 'cPhone']) = count(//*[@name = 'cPhone'])][count(. | //*[@value = '061111111']) = count(//*[@value = '061111111'])][count(. | //*[@size = '40']) = count(//*[@size = '40'])][count(. | //*[@maxlength = '100']) = count(//*[@maxlength = '100'])][count(. | id(&quot;main-big-col&quot;)/form[1]/input[@class=&quot;nor&quot;]) = count(id(&quot;main-big-col&quot;)/form[1]/input[@class=&quot;nor&quot;])]' not found)"/>
+         <system-out><![CDATA[2017-11-10 11:40:45 - [TEST_CASE][FAILED] - Test Cases/EditProfile: Test Cases/EditProfile FAILED because (of) Unable to set text '060147258' of object 'Object Repository/EditProfile/Page_ACME ECOMM  Edit Profile/Page_ACME ECOMM  Edit Profile/input_cPhone' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/EditProfile/Page_ACME ECOMM  Edit Profile/Page_ACME ECOMM  Edit Profile/input_cPhone' located by 'By.xpath: //input[count(. | //*[@class = 'nor']) = count(//*[@class = 'nor'])][count(. | //*[@type = 'text']) = count(//*[@type = 'text'])][count(. | //*[@name = 'cPhone']) = count(//*[@name = 'cPhone'])][count(. | //*[@value = '061111111']) = count(//*[@value = '061111111'])][count(. | //*[@size = '40']) = count(//*[@size = '40'])][count(. | //*[@maxlength = '100']) = count(//*[@maxlength = '100'])][count(. | id("main-big-col")/form[1]/input[@class="nor"]) = count(id("main-big-col")/form[1]/input[@class="nor"])]' not found)
+
+2017-11-10 11:40:46 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2017-11-10 11:40:49 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2017-11-10 11:40:49 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://www.acme.qualityhouse.bg/build3/index.php' successfully
+
+2017-11-10 11:40:50 - [MESSAGE][PASSED] - Navigate to 'http://www.acme.qualityhouse.bg/build3/index.php' successfully
+
+2017-11-10 11:40:50 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/EditProfile/Page_ACME ECOMM  Home/a_Login' is clicked on
+
+2017-11-10 11:40:50 - [MESSAGE][PASSED] - Object: 'Object Repository/EditProfile/Page_ACME ECOMM  Home/a_Login' is clicked on
+
+2017-11-10 11:40:50 - [TEST_STEP][PASSED] - setText: Text 'student1' is set on object 'Object Repository/EditProfile/Page_ACME ECOMM  Login/input_username'
+
+2017-11-10 11:40:50 - [MESSAGE][PASSED] - Text 'student1' is set on object 'Object Repository/EditProfile/Page_ACME ECOMM  Login/input_username'
+
+2017-11-10 11:40:50 - [TEST_STEP][PASSED] - setText: Text 'stpass1' is set on object 'Object Repository/EditProfile/Page_ACME ECOMM  Login/input_userpass'
+
+2017-11-10 11:40:50 - [MESSAGE][PASSED] - Text 'stpass1' is set on object 'Object Repository/EditProfile/Page_ACME ECOMM  Login/input_userpass'
+
+2017-11-10 11:40:50 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/EditProfile/Page_ACME ECOMM  Login/input_ses_login' is clicked on
+
+2017-11-10 11:40:51 - [MESSAGE][PASSED] - Object: 'Object Repository/EditProfile/Page_ACME ECOMM  Login/input_ses_login' is clicked on
+
+2017-11-10 11:40:51 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/EditProfile/Page_ACME ECOMM  Home/a_Edit Profile' is clicked on
+
+2017-11-10 11:40:51 - [MESSAGE][PASSED] - Object: 'Object Repository/EditProfile/Page_ACME ECOMM  Home/a_Edit Profile' is clicked on
+
+2017-11-10 11:40:51 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/EditProfile/Page_ACME ECOMM  Edit Profile/div_out-wrapper' is clicked on
+
+2017-11-10 11:40:51 - [MESSAGE][PASSED] - Object: 'Object Repository/EditProfile/Page_ACME ECOMM  Edit Profile/div_out-wrapper' is clicked on
+
+2017-11-10 11:40:51 - [TEST_STEP][PASSED] - setText: Text 'nem11@gmail.com' is set on object 'Object Repository/EditProfile/Page_ACME ECOMM  Edit Profile/input_cEmail'
+
+2017-11-10 11:40:51 - [MESSAGE][PASSED] - Text 'nem11@gmail.com' is set on object 'Object Repository/EditProfile/Page_ACME ECOMM  Edit Profile/input_cEmail'
+
+2017-11-10 11:40:51 - [TEST_STEP][PASSED] - setText: Text 'Ivan' is set on object 'Object Repository/EditProfile/Page_ACME ECOMM  Edit Profile/Page_ACME ECOMM  Edit Profile/input_cName'
+
+2017-11-10 11:40:51 - [MESSAGE][PASSED] - Text 'Ivan' is set on object 'Object Repository/EditProfile/Page_ACME ECOMM  Edit Profile/Page_ACME ECOMM  Edit Profile/input_cName'
+
+2017-11-10 11:40:51 - [TEST_STEP][FAILED] - setText: Unable to set text '060147258' of object 'Object Repository/EditProfile/Page_ACME ECOMM  Edit Profile/Page_ACME ECOMM  Edit Profile/input_cPhone' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/EditProfile/Page_ACME ECOMM  Edit Profile/Page_ACME ECOMM  Edit Profile/input_cPhone' located by 'By.xpath: //input[count(. | //*[@class = 'nor']) = count(//*[@class = 'nor'])][count(. | //*[@type = 'text']) = count(//*[@type = 'text'])][count(. | //*[@name = 'cPhone']) = count(//*[@name = 'cPhone'])][count(. | //*[@value = '061111111']) = count(//*[@value = '061111111'])][count(. | //*[@size = '40']) = count(//*[@size = '40'])][count(. | //*[@maxlength = '100']) = count(//*[@maxlength = '100'])][count(. | id("main-big-col")/form[1]/input[@class="nor"]) = count(id("main-big-col")/form[1]/input[@class="nor"])]' not found)
+
+2017-11-10 11:41:23 - [MESSAGE][FAILED] - Unable to set text '060147258' of object 'Object Repository/EditProfile/Page_ACME ECOMM  Edit Profile/Page_ACME ECOMM  Edit Profile/input_cPhone' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/EditProfile/Page_ACME ECOMM  Edit Profile/Page_ACME ECOMM  Edit Profile/input_cPhone' located by 'By.xpath: //input[count(. | //*[@class = 'nor']) = count(//*[@class = 'nor'])][count(. | //*[@type = 'text']) = count(//*[@type = 'text'])][count(. | //*[@name = 'cPhone']) = count(//*[@name = 'cPhone'])][count(. | //*[@value = '061111111']) = count(//*[@value = '061111111'])][count(. | //*[@size = '40']) = count(//*[@size = '40'])][count(. | //*[@maxlength = '100']) = count(//*[@maxlength = '100'])][count(. | id("main-big-col")/form[1]/input[@class="nor"]) = count(id("main-big-col")/form[1]/input[@class="nor"])]' not found)
+[[ATTACHMENT|C:\\Users\\QH_05\\Katalon Studio\\Acme\\Reports\\LoginEditForm\\20171110_114044\\1510310482976.png]]]]></system-out>
+         <system-err><![CDATA[2017-11-10 11:40:45 - [TEST_CASE][FAILED] - Test Cases/EditProfile: Test Cases/EditProfile FAILED because (of) Unable to set text '060147258' of object 'Object Repository/EditProfile/Page_ACME ECOMM  Edit Profile/Page_ACME ECOMM  Edit Profile/input_cPhone' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/EditProfile/Page_ACME ECOMM  Edit Profile/Page_ACME ECOMM  Edit Profile/input_cPhone' located by 'By.xpath: //input[count(. | //*[@class = 'nor']) = count(//*[@class = 'nor'])][count(. | //*[@type = 'text']) = count(//*[@type = 'text'])][count(. | //*[@name = 'cPhone']) = count(//*[@name = 'cPhone'])][count(. | //*[@value = '061111111']) = count(//*[@value = '061111111'])][count(. | //*[@size = '40']) = count(//*[@size = '40'])][count(. | //*[@maxlength = '100']) = count(//*[@maxlength = '100'])][count(. | id("main-big-col")/form[1]/input[@class="nor"]) = count(id("main-big-col")/form[1]/input[@class="nor"])]' not found)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Order" classname="Test Cases/Order" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/Order/Page_PHPTRAVELS  Order/button_wow fadeIn btn btn-succ' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Order/Page_PHPTRAVELS  Order/button_wow fadeIn btn btn-succ' located by 'By.xpath: //button[count(. | //*[@data-wow-duration = '0.5s']) = count(//*[@data-wow-duration = '0.5s'])][count(. | //*[@data-wow-delay = '2.3s']) = count(//*[@data-wow-delay = '2.3s'])][count(. | //*[@class = 'wow fadeIn btn btn-success btn-block animated']) = count(//*[@class = 'wow fadeIn btn btn-success btn-block animated'])][count(. | /html[1]/body[1]/section[2]/div[@class=&quot;container&quot;]/div[@class=&quot;tab-content&quot;]/div[@class=&quot;col-md-4&quot;]/div[@class=&quot;panel panel-default&quot;]/div[@class=&quot;panel-body&quot;]/div[@class=&quot;body&quot;]/form[1]/button[@class=&quot;wow fadeIn btn btn-success btn-block animated&quot;]) = count(/html[1]/body[1]/section[2]/div[@class=&quot;container&quot;]/div[@class=&quot;tab-content&quot;]/div[@class=&quot;col-md-4&quot;]/div[@class=&quot;panel panel-default&quot;]/div[@class=&quot;panel-body&quot;]/div[@class=&quot;body&quot;]/form[1]/button[@class=&quot;wow fadeIn btn btn-success btn-block animated&quot;])]' not found)"/>
+         <system-out><![CDATA[2017-11-10 11:41:23 - [TEST_CASE][FAILED] - Test Cases/Order: Test Cases/Order FAILED because (of) Unable to click on object 'Object Repository/Order/Page_PHPTRAVELS  Order/button_wow fadeIn btn btn-succ' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Order/Page_PHPTRAVELS  Order/button_wow fadeIn btn btn-succ' located by 'By.xpath: //button[count(. | //*[@data-wow-duration = '0.5s']) = count(//*[@data-wow-duration = '0.5s'])][count(. | //*[@data-wow-delay = '2.3s']) = count(//*[@data-wow-delay = '2.3s'])][count(. | //*[@class = 'wow fadeIn btn btn-success btn-block animated']) = count(//*[@class = 'wow fadeIn btn btn-success btn-block animated'])][count(. | /html[1]/body[1]/section[2]/div[@class="container"]/div[@class="tab-content"]/div[@class="col-md-4"]/div[@class="panel panel-default"]/div[@class="panel-body"]/div[@class="body"]/form[1]/button[@class="wow fadeIn btn btn-success btn-block animated"]) = count(/html[1]/body[1]/section[2]/div[@class="container"]/div[@class="tab-content"]/div[@class="col-md-4"]/div[@class="panel panel-default"]/div[@class="panel-body"]/div[@class="body"]/form[1]/button[@class="wow fadeIn btn btn-success btn-block animated"])]' not found)
+
+2017-11-10 11:41:23 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2017-11-10 11:41:23 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2017-11-10 11:41:25 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2017-11-10 11:41:25 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://phptravels.com/demo/' successfully
+
+2017-11-10 11:41:28 - [MESSAGE][PASSED] - Navigate to 'http://phptravels.com/demo/' successfully
+
+2017-11-10 11:41:28 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Order/Page_PHPTRAVELS  Demo/a_Order' is clicked on
+
+2017-11-10 11:41:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Order/Page_PHPTRAVELS  Demo/a_Order' is clicked on
+
+2017-11-10 11:41:28 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Order/Page_PHPTRAVELS  Order/button_wow fadeIn btn btn-succ' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Order/Page_PHPTRAVELS  Order/button_wow fadeIn btn btn-succ' located by 'By.xpath: //button[count(. | //*[@data-wow-duration = '0.5s']) = count(//*[@data-wow-duration = '0.5s'])][count(. | //*[@data-wow-delay = '2.3s']) = count(//*[@data-wow-delay = '2.3s'])][count(. | //*[@class = 'wow fadeIn btn btn-success btn-block animated']) = count(//*[@class = 'wow fadeIn btn btn-success btn-block animated'])][count(. | /html[1]/body[1]/section[2]/div[@class="container"]/div[@class="tab-content"]/div[@class="col-md-4"]/div[@class="panel panel-default"]/div[@class="panel-body"]/div[@class="body"]/form[1]/button[@class="wow fadeIn btn btn-success btn-block animated"]) = count(/html[1]/body[1]/section[2]/div[@class="container"]/div[@class="tab-content"]/div[@class="col-md-4"]/div[@class="panel panel-default"]/div[@class="panel-body"]/div[@class="body"]/form[1]/button[@class="wow fadeIn btn btn-success btn-block animated"])]' not found)
+
+2017-11-10 11:42:01 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Order/Page_PHPTRAVELS  Order/button_wow fadeIn btn btn-succ' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Order/Page_PHPTRAVELS  Order/button_wow fadeIn btn btn-succ' located by 'By.xpath: //button[count(. | //*[@data-wow-duration = '0.5s']) = count(//*[@data-wow-duration = '0.5s'])][count(. | //*[@data-wow-delay = '2.3s']) = count(//*[@data-wow-delay = '2.3s'])][count(. | //*[@class = 'wow fadeIn btn btn-success btn-block animated']) = count(//*[@class = 'wow fadeIn btn btn-success btn-block animated'])][count(. | /html[1]/body[1]/section[2]/div[@class="container"]/div[@class="tab-content"]/div[@class="col-md-4"]/div[@class="panel panel-default"]/div[@class="panel-body"]/div[@class="body"]/form[1]/button[@class="wow fadeIn btn btn-success btn-block animated"]) = count(/html[1]/body[1]/section[2]/div[@class="container"]/div[@class="tab-content"]/div[@class="col-md-4"]/div[@class="panel panel-default"]/div[@class="panel-body"]/div[@class="body"]/form[1]/button[@class="wow fadeIn btn btn-success btn-block animated"])]' not found)
+[[ATTACHMENT|C:\\Users\\QH_05\\Katalon Studio\\Acme\\Reports\\LoginEditForm\\20171110_114044\\1510310521001.png]]]]></system-out>
+         <system-err><![CDATA[2017-11-10 11:41:23 - [TEST_CASE][FAILED] - Test Cases/Order: Test Cases/Order FAILED because (of) Unable to click on object 'Object Repository/Order/Page_PHPTRAVELS  Order/button_wow fadeIn btn btn-succ' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Order/Page_PHPTRAVELS  Order/button_wow fadeIn btn btn-succ' located by 'By.xpath: //button[count(. | //*[@data-wow-duration = '0.5s']) = count(//*[@data-wow-duration = '0.5s'])][count(. | //*[@data-wow-delay = '2.3s']) = count(//*[@data-wow-delay = '2.3s'])][count(. | //*[@class = 'wow fadeIn btn btn-success btn-block animated']) = count(//*[@class = 'wow fadeIn btn btn-success btn-block animated'])][count(. | /html[1]/body[1]/section[2]/div[@class="container"]/div[@class="tab-content"]/div[@class="col-md-4"]/div[@class="panel panel-default"]/div[@class="panel-body"]/div[@class="body"]/form[1]/button[@class="wow fadeIn btn btn-success btn-block animated"]) = count(/html[1]/body[1]/section[2]/div[@class="container"]/div[@class="tab-content"]/div[@class="col-md-4"]/div[@class="panel panel-default"]/div[@class="panel-body"]/div[@class="body"]/form[1]/button[@class="wow fadeIn btn btn-success btn-block animated"])]' not found)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2017-11-10 11:40:45 - [TEST_SUITE][FAILED] - LoginEditForm: Test Cases/EditProfile FAILED because (of) Unable to set text '060147258' of object 'Object Repository/EditProfile/Page_ACME ECOMM  Edit Profile/Page_ACME ECOMM  Edit Profile/input_cPhone' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/EditProfile/Page_ACME ECOMM  Edit Profile/Page_ACME ECOMM  Edit Profile/input_cPhone' located by 'By.xpath: //input[count(. | //*[@class = 'nor']) = count(//*[@class = 'nor'])][count(. | //*[@type = 'text']) = count(//*[@type = 'text'])][count(. | //*[@name = 'cPhone']) = count(//*[@name = 'cPhone'])][count(. | //*[@value = '061111111']) = count(//*[@value = '061111111'])][count(. | //*[@size = '40']) = count(//*[@size = '40'])][count(. | //*[@maxlength = '100']) = count(//*[@maxlength = '100'])][count(. | id("main-big-col")/form[1]/input[@class="nor"]) = count(id("main-big-col")/form[1]/input[@class="nor"])]' not found)]]></system-out>
+      <system-err><![CDATA[2017-11-10 11:40:45 - [TEST_SUITE][FAILED] - LoginEditForm: Test Cases/EditProfile FAILED because (of) Unable to set text '060147258' of object 'Object Repository/EditProfile/Page_ACME ECOMM  Edit Profile/Page_ACME ECOMM  Edit Profile/input_cPhone' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/EditProfile/Page_ACME ECOMM  Edit Profile/Page_ACME ECOMM  Edit Profile/input_cPhone' located by 'By.xpath: //input[count(. | //*[@class = 'nor']) = count(//*[@class = 'nor'])][count(. | //*[@type = 'text']) = count(//*[@type = 'text'])][count(. | //*[@name = 'cPhone']) = count(//*[@name = 'cPhone'])][count(. | //*[@value = '061111111']) = count(//*[@value = '061111111'])][count(. | //*[@size = '40']) = count(//*[@size = '40'])][count(. | //*[@maxlength = '100']) = count(//*[@maxlength = '100'])][count(. | id("main-big-col")/form[1]/input[@class="nor"]) = count(id("main-big-col")/form[1]/input[@class="nor"])]' not found)]]></system-err>
+   </testsuite>
+</testsuites>

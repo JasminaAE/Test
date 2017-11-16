@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="browseBooksVariousRequests" time="35" tests="4" failures="2" errors="0">
+   <testsuite name="browseBooksVariousRequests" tests="4" failures="2" errors="0" time="35" timestamp="2017-11-16 11:46:12" hostname="QH_05 - 192.168.18.128" id="Test Suites/browseBooksVariousRequests">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\QH_05\\Katalon Studio\\Acme\\Reports\\browseBooksVariousRequests\\20171116_114611"/>
+         <property name="logFiles" value="C:\\Users\\QH_05\\Katalon Studio\\Acme\\Reports\\browseBooksVariousRequests\\20171116_114611\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\QH_05\\Katalon Studio\\Acme\\Reports\\browseBooksVariousRequests\\20171116_114611\\1510829188576.png, C:\\Users\\QH_05\\Katalon Studio\\Acme\\Reports\\browseBooksVariousRequests\\20171116_114611\\1510829200999.png"/>
+         <property name="hostName" value="QH_05 - 192.168.18.128"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.0.1.1"/>
+         <property name="browser" value="Chrome 61.0.3163.100"/>
+         <property name="hostAddress" value="192.168.18.128"/>
+         <property name="sessionId" value="7f934c08600befb992347f0ffc0b7689"/>
+         <property name="seleniumVersion" value="2.53.0"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Browse Book/BrowseBookbyAuthor" classname="Test Cases/Browse Book/BrowseBookbyAuthor" status="PASSED">
+         <system-out><![CDATA[2017-11-16 11:46:13 - [TEST_CASE][PASSED] - Test Cases/Browse Book/BrowseBookbyAuthor: Test Cases/Browse Book/BrowseBookbyAuthor
+
+2017-11-16 11:46:13 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2017-11-16 11:46:16 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2017-11-16 11:46:16 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2017-11-16 11:46:17 - [MESSAGE][PASSED] - Current window maximized
+
+2017-11-16 11:46:17 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://www.acme.qualityhouse.bg/build3/index.php' successfully
+
+2017-11-16 11:46:18 - [MESSAGE][PASSED] - Navigate to 'http://www.acme.qualityhouse.bg/build3/index.php' successfully
+
+2017-11-16 11:46:18 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Browse Book/Page_ACME ECOMM  Home/a_Books' is clicked on
+
+2017-11-16 11:46:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Browse Book/Page_ACME ECOMM  Home/a_Books' is clicked on
+
+2017-11-16 11:46:18 - [TEST_STEP][PASSED] - setText: Text 'James' is set on object 'Object Repository/Browse Book/Page_ACME ECOMM  Books/input_Author'
+
+2017-11-16 11:46:18 - [MESSAGE][PASSED] - Text 'James' is set on object 'Object Repository/Browse Book/Page_ACME ECOMM  Books/input_Author'
+
+2017-11-16 11:46:18 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Browse Book/Page_ACME ECOMM  Books/input_formbtn' is clicked on
+
+2017-11-16 11:46:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Browse Book/Page_ACME ECOMM  Books/input_formbtn' is clicked on
+
+2017-11-16 11:46:18 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'Susanne Jameson' is present on page  using regular expression
+
+2017-11-16 11:46:19 - [MESSAGE][PASSED] - Text 'Susanne Jameson' is present on page  using regular expression
+
+2017-11-16 11:46:19 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2017-11-16 11:46:20 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Browse Book/BrowseBookByISBN" classname="Test Cases/Browse Book/BrowseBookByISBN" status="PASSED">
+         <system-out><![CDATA[2017-11-16 11:46:20 - [TEST_CASE][PASSED] - Test Cases/Browse Book/BrowseBookByISBN: Test Cases/Browse Book/BrowseBookByISBN
+
+2017-11-16 11:46:20 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2017-11-16 11:46:22 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2017-11-16 11:46:22 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://www.acme.qualityhouse.bg/build3/index.php' successfully
+
+2017-11-16 11:46:23 - [MESSAGE][PASSED] - Navigate to 'http://www.acme.qualityhouse.bg/build3/index.php' successfully
+
+2017-11-16 11:46:23 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/BrowseBookByISBN/Page_ACME ECOMM  Home/a_Books' is clicked on
+
+2017-11-16 11:46:23 - [MESSAGE][PASSED] - Object: 'Object Repository/BrowseBookByISBN/Page_ACME ECOMM  Home/a_Books' is clicked on
+
+2017-11-16 11:46:23 - [TEST_STEP][PASSED] - setText: Text '55134124' is set on object 'Object Repository/BrowseBookByISBN/Page_ACME ECOMM  Books/input_ISBN'
+
+2017-11-16 11:46:23 - [MESSAGE][PASSED] - Text '55134124' is set on object 'Object Repository/BrowseBookByISBN/Page_ACME ECOMM  Books/input_ISBN'
+
+2017-11-16 11:46:23 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/BrowseBookByISBN/Page_ACME ECOMM  Books/input_formbtn' is clicked on
+
+2017-11-16 11:46:23 - [MESSAGE][PASSED] - Object: 'Object Repository/BrowseBookByISBN/Page_ACME ECOMM  Books/input_formbtn' is clicked on
+
+2017-11-16 11:46:23 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/BrowseBookByISBN/Page_ACME ECOMM  Books/b_Autumn Colors' is present
+
+2017-11-16 11:46:23 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2017-11-16 11:46:23 - [MESSAGE][PASSED] - Object 'Object Repository/BrowseBookByISBN/Page_ACME ECOMM  Books/b_Autumn Colors' is present
+
+2017-11-16 11:46:23 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2017-11-16 11:46:24 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Browse Book/BrowseBookByPublisher" classname="Test Cases/Browse Book/BrowseBookByPublisher" status="FAILED">
+         <failure type="FAILED" message="Unable to verify text 'Garden Zen, House Exterior Design, Mountaneering for Dummies' is present  using regular expression (Root cause: Text 'Garden Zen, House Exterior Design, Mountaneering for Dummies' is not present on page  using regular expression)"/>
+         <system-out><![CDATA[2017-11-16 11:46:24 - [TEST_CASE][FAILED] - Test Cases/Browse Book/BrowseBookByPublisher: Test Cases/Browse Book/BrowseBookByPublisher FAILED because (of) Unable to verify text 'Garden Zen, House Exterior Design, Mountaneering for Dummies' is present  using regular expression (Root cause: Text 'Garden Zen, House Exterior Design, Mountaneering for Dummies' is not present on page  using regular expression)
+
+2017-11-16 11:46:25 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2017-11-16 11:46:26 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2017-11-16 11:46:26 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://www.acme.qualityhouse.bg/build3/index.php' successfully
+
+2017-11-16 11:46:27 - [MESSAGE][PASSED] - Navigate to 'http://www.acme.qualityhouse.bg/build3/index.php' successfully
+
+2017-11-16 11:46:27 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/BrowseBookByPublisher/Page_ACME ECOMM  Home/a_Books' is clicked on
+
+2017-11-16 11:46:27 - [MESSAGE][PASSED] - Object: 'Object Repository/BrowseBookByPublisher/Page_ACME ECOMM  Home/a_Books' is clicked on
+
+2017-11-16 11:46:27 - [TEST_STEP][PASSED] - setText: Text 'Zen Publishing Ltd' is set on object 'Object Repository/BrowseBookByPublisher/Page_ACME ECOMM  Books/input_Publisher'
+
+2017-11-16 11:46:28 - [MESSAGE][PASSED] - Text 'Zen Publishing Ltd' is set on object 'Object Repository/BrowseBookByPublisher/Page_ACME ECOMM  Books/input_Publisher'
+
+2017-11-16 11:46:28 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/BrowseBookByPublisher/Page_ACME ECOMM  Books/input_formbtn' is clicked on
+
+2017-11-16 11:46:28 - [MESSAGE][PASSED] - Object: 'Object Repository/BrowseBookByPublisher/Page_ACME ECOMM  Books/input_formbtn' is clicked on
+
+2017-11-16 11:46:28 - [TEST_STEP][FAILED] - verifyTextPresent: Unable to verify text 'Garden Zen, House Exterior Design, Mountaneering for Dummies' is present  using regular expression (Root cause: Text 'Garden Zen, House Exterior Design, Mountaneering for Dummies' is not present on page  using regular expression)
+
+2017-11-16 11:46:28 - [MESSAGE][FAILED] - Text 'Garden Zen, House Exterior Design, Mountaneering for Dummies' is not present on page  using regular expression
+
+2017-11-16 11:46:28 - [MESSAGE][FAILED] - Unable to verify text 'Garden Zen, House Exterior Design, Mountaneering for Dummies' is present  using regular expression (Root cause: Text 'Garden Zen, House Exterior Design, Mountaneering for Dummies' is not present on page  using regular expression)
+[[ATTACHMENT|C:\\Users\\QH_05\\Katalon Studio\\Acme\\Reports\\browseBooksVariousRequests\\20171116_114611\\1510829188576.png]]]]></system-out>
+         <system-err><![CDATA[2017-11-16 11:46:24 - [TEST_CASE][FAILED] - Test Cases/Browse Book/BrowseBookByPublisher: Test Cases/Browse Book/BrowseBookByPublisher FAILED because (of) Unable to verify text 'Garden Zen, House Exterior Design, Mountaneering for Dummies' is present  using regular expression (Root cause: Text 'Garden Zen, House Exterior Design, Mountaneering for Dummies' is not present on page  using regular expression)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Browse Book/BrowseBookByTitle" classname="Test Cases/Browse Book/BrowseBookByTitle" status="PASSED">
+         <system-out><![CDATA[2017-11-16 11:46:28 - [TEST_CASE][PASSED] - Test Cases/Browse Book/BrowseBookByTitle: Test Cases/Browse Book/BrowseBookByTitle
+
+2017-11-16 11:46:29 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2017-11-16 11:46:29 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2017-11-16 11:46:32 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2017-11-16 11:46:32 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2017-11-16 11:46:33 - [MESSAGE][PASSED] - Current window maximized
+
+2017-11-16 11:46:33 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://www.acme.qualityhouse.bg/build3/index.php' successfully
+
+2017-11-16 11:46:34 - [MESSAGE][PASSED] - Navigate to 'http://www.acme.qualityhouse.bg/build3/index.php' successfully
+
+2017-11-16 11:46:34 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/BrowseBookByTitle/Page_ACME ECOMM  Home/a_Books' is clicked on
+
+2017-11-16 11:46:34 - [MESSAGE][PASSED] - Object: 'Object Repository/BrowseBookByTitle/Page_ACME ECOMM  Home/a_Books' is clicked on
+
+2017-11-16 11:46:34 - [TEST_STEP][PASSED] - setText: Text 'Autumn' is set on object 'Object Repository/BrowseBookByTitle/Page_ACME ECOMM  Books/input_Title'
+
+2017-11-16 11:46:34 - [MESSAGE][PASSED] - Text 'Autumn' is set on object 'Object Repository/BrowseBookByTitle/Page_ACME ECOMM  Books/input_Title'
+
+2017-11-16 11:46:34 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/BrowseBookByTitle/Page_ACME ECOMM  Books/input_formbtn' is clicked on
+
+2017-11-16 11:46:34 - [MESSAGE][PASSED] - Object: 'Object Repository/BrowseBookByTitle/Page_ACME ECOMM  Books/input_formbtn' is clicked on
+
+2017-11-16 11:46:34 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/BrowseBookByTitle/Page_ACME ECOMM  Books/b_Autumn Colors' is present
+
+2017-11-16 11:46:34 - [MESSAGE][PASSED] - Object 'Object Repository/BrowseBookByTitle/Page_ACME ECOMM  Books/b_Autumn Colors' is present
+
+2017-11-16 11:46:34 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2017-11-16 11:46:35 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Browse Book/NegativeTCBrowseBook/BrowseBookbywithSpecialCharacters" classname="Test Cases/Browse Book/NegativeTCBrowseBook/BrowseBookbywithSpecialCharacters" status="FAILED">
+         <failure type="FAILED" message="Unable to verify text 'There are no Books matching the search criteria...' is present  using regular expression (Root cause: Text 'There are no Books matching the search criteria...' is not present on page  using regular expression)"/>
+         <system-out><![CDATA[2017-11-16 11:46:35 - [TEST_CASE][FAILED] - Test Cases/Browse Book/NegativeTCBrowseBook/BrowseBookbywithSpecialCharacters: Test Cases/Browse Book/NegativeTCBrowseBook/BrowseBookbywithSpecialCharacters FAILED because (of) Unable to verify text 'There are no Books matching the search criteria...' is present  using regular expression (Root cause: Text 'There are no Books matching the search criteria...' is not present on page  using regular expression)
+
+2017-11-16 11:46:36 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2017-11-16 11:46:37 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2017-11-16 11:46:37 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2017-11-16 11:46:39 - [MESSAGE][PASSED] - Current window maximized
+
+2017-11-16 11:46:39 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://www.acme.qualityhouse.bg/build3/index.php' successfully
+
+2017-11-16 11:46:39 - [MESSAGE][PASSED] - Navigate to 'http://www.acme.qualityhouse.bg/build3/index.php' successfully
+
+2017-11-16 11:46:39 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/BrowsewithsSpecialCharacter/Page_ACME ECOMM  Home/a_Books' is clicked on
+
+2017-11-16 11:46:39 - [MESSAGE][PASSED] - Object: 'Object Repository/BrowsewithsSpecialCharacter/Page_ACME ECOMM  Home/a_Books' is clicked on
+
+2017-11-16 11:46:39 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/BrowsewithsSpecialCharacter/Page_ACME ECOMM  Books/td_Author' is clicked on
+
+2017-11-16 11:46:40 - [MESSAGE][PASSED] - Object: 'Object Repository/BrowsewithsSpecialCharacter/Page_ACME ECOMM  Books/td_Author' is clicked on
+
+2017-11-16 11:46:40 - [TEST_STEP][PASSED] - setText: Text '%' is set on object 'Object Repository/BrowsewithsSpecialCharacter/Page_ACME ECOMM  Books/input_Author'
+
+2017-11-16 11:46:40 - [MESSAGE][PASSED] - Text '%' is set on object 'Object Repository/BrowsewithsSpecialCharacter/Page_ACME ECOMM  Books/input_Author'
+
+2017-11-16 11:46:40 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/BrowsewithsSpecialCharacter/Page_ACME ECOMM  Books/input_formbtn' is clicked on
+
+2017-11-16 11:46:40 - [MESSAGE][PASSED] - Object: 'Object Repository/BrowsewithsSpecialCharacter/Page_ACME ECOMM  Books/input_formbtn' is clicked on
+
+2017-11-16 11:46:40 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/BrowsewithsSpecialCharacter/Page_ACME ECOMM  Books/a_add to basket' is clicked on
+
+2017-11-16 11:46:40 - [MESSAGE][PASSED] - Object: 'Object Repository/BrowsewithsSpecialCharacter/Page_ACME ECOMM  Books/a_add to basket' is clicked on
+
+2017-11-16 11:46:40 - [TEST_STEP][FAILED] - verifyTextPresent: Unable to verify text 'There are no Books matching the search criteria...' is present  using regular expression (Root cause: Text 'There are no Books matching the search criteria...' is not present on page  using regular expression)
+
+2017-11-16 11:46:40 - [MESSAGE][FAILED] - Text 'There are no Books matching the search criteria...' is not present on page  using regular expression
+
+2017-11-16 11:46:41 - [MESSAGE][FAILED] - Unable to verify text 'There are no Books matching the search criteria...' is present  using regular expression (Root cause: Text 'There are no Books matching the search criteria...' is not present on page  using regular expression)
+[[ATTACHMENT|C:\\Users\\QH_05\\Katalon Studio\\Acme\\Reports\\browseBooksVariousRequests\\20171116_114611\\1510829200999.png]]]]></system-out>
+         <system-err><![CDATA[2017-11-16 11:46:35 - [TEST_CASE][FAILED] - Test Cases/Browse Book/NegativeTCBrowseBook/BrowseBookbywithSpecialCharacters: Test Cases/Browse Book/NegativeTCBrowseBook/BrowseBookbywithSpecialCharacters FAILED because (of) Unable to verify text 'There are no Books matching the search criteria...' is present  using regular expression (Root cause: Text 'There are no Books matching the search criteria...' is not present on page  using regular expression)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Browse Book/SearchBook" classname="Test Cases/Browse Book/SearchBook" status="PASSED">
+         <system-out><![CDATA[2017-11-16 11:46:41 - [TEST_CASE][PASSED] - Test Cases/Browse Book/SearchBook: Test Cases/Browse Book/SearchBook
+
+2017-11-16 11:46:41 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2017-11-16 11:46:41 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2017-11-16 11:46:44 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2017-11-16 11:46:44 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2017-11-16 11:46:45 - [MESSAGE][PASSED] - Current window maximized
+
+2017-11-16 11:46:45 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://www.acme.qualityhouse.bg/build3/index.php' successfully
+
+2017-11-16 11:46:46 - [MESSAGE][PASSED] - Navigate to 'http://www.acme.qualityhouse.bg/build3/index.php' successfully
+
+2017-11-16 11:46:46 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/SearchBook/a_Books' is clicked on
+
+2017-11-16 11:46:46 - [MESSAGE][PASSED] - Object: 'Object Repository/SearchBook/a_Books' is clicked on
+
+2017-11-16 11:46:46 - [TEST_STEP][PASSED] - setText: Text 'au' is set on object 'Object Repository/SearchBook/input_Author'
+
+2017-11-16 11:46:46 - [MESSAGE][PASSED] - Text 'au' is set on object 'Object Repository/SearchBook/input_Author'
+
+2017-11-16 11:46:46 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/SearchBook/input_formbtn' is clicked on
+
+2017-11-16 11:46:46 - [MESSAGE][PASSED] - Object: 'Object Repository/SearchBook/input_formbtn' is clicked on
+
+2017-11-16 11:46:46 - [TEST_STEP][PASSED] - setText: Text 'John' is set on object 'Object Repository/SearchBook/input_Author'
+
+2017-11-16 11:46:46 - [MESSAGE][PASSED] - Text 'John' is set on object 'Object Repository/SearchBook/input_Author'
+
+2017-11-16 11:46:46 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/SearchBook/input_formbtn' is clicked on
+
+2017-11-16 11:46:47 - [MESSAGE][PASSED] - Object: 'Object Repository/SearchBook/input_formbtn' is clicked on
+
+2017-11-16 11:46:47 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/SearchBook/b_The miracles of the Nature' is clicked on
+
+2017-11-16 11:46:47 - [MESSAGE][PASSED] - Object: 'Object Repository/SearchBook/b_The miracles of the Nature' is clicked on
+
+2017-11-16 11:46:47 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/SearchBook/a_Back to Product List' is clicked on
+
+2017-11-16 11:46:47 - [MESSAGE][PASSED] - Object: 'Object Repository/SearchBook/a_Back to Product List' is clicked on
+
+2017-11-16 11:46:47 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/SearchBook/a_Home' is clicked on
+
+2017-11-16 11:46:47 - [MESSAGE][PASSED] - Object: 'Object Repository/SearchBook/a_Home' is clicked on
+
+2017-11-16 11:46:47 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2017-11-16 11:46:48 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2017-11-16 11:46:12 - [TEST_SUITE][FAILED] - browseBooksVariousRequests: Test Cases/Browse Book/BrowseBookByPublisher FAILED because (of) Unable to verify text 'Garden Zen, House Exterior Design, Mountaneering for Dummies' is present  using regular expression (Root cause: Text 'Garden Zen, House Exterior Design, Mountaneering for Dummies' is not present on page  using regular expression)]]></system-out>
+      <system-err><![CDATA[2017-11-16 11:46:12 - [TEST_SUITE][FAILED] - browseBooksVariousRequests: Test Cases/Browse Book/BrowseBookByPublisher FAILED because (of) Unable to verify text 'Garden Zen, House Exterior Design, Mountaneering for Dummies' is present  using regular expression (Root cause: Text 'Garden Zen, House Exterior Design, Mountaneering for Dummies' is not present on page  using regular expression)]]></system-err>
+   </testsuite>
+</testsuites>

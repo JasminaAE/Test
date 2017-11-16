@@ -1,0 +1,14 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+LoginEditForm,Firefox 56.0,Login and edit profile,2017-11-16 11:25:05,2017-11-16 11:25:53,47.191s,FAILED
+,,,,,,
+Test Cases/LoginEditLogout/EditProfile,Firefox 56.0,edit user profile,2017-11-16 11:25:07,2017-11-16 11:25:52,44.946s,FAILED
+openBrowser,Firefox 56.0,,2017-11-16 11:25:09,2017-11-16 11:25:18,9.564s,PASSED
+navigateToUrl,Firefox 56.0,,2017-11-16 11:25:18,2017-11-16 11:25:19,0.860s,PASSED
+click,Firefox 56.0,,2017-11-16 11:25:19,2017-11-16 11:25:19,0.486s,PASSED
+setText,Firefox 56.0,,2017-11-16 11:25:19,2017-11-16 11:25:20,0.209s,PASSED
+setText,Firefox 56.0,,2017-11-16 11:25:20,2017-11-16 11:25:20,0.341s,PASSED
+click,Firefox 56.0,,2017-11-16 11:25:20,2017-11-16 11:25:20,0.355s,PASSED
+click,Firefox 56.0,,2017-11-16 11:25:20,2017-11-16 11:25:21,0.311s,PASSED
+click,Firefox 56.0,,2017-11-16 11:25:21,2017-11-16 11:25:21,0.196s,PASSED
+setText,Firefox 56.0,,2017-11-16 11:25:21,2017-11-16 11:25:21,0.202s,PASSED
+setText,Firefox 56.0,,2017-11-16 11:25:21,2017-11-16 11:25:52,31.102s,FAILED

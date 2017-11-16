@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="LoginEditForm" time="47" tests="0" failures="1" errors="0">
+   <testsuite name="LoginEditForm" tests="0" failures="1" errors="0" time="47" timestamp="2017-11-16 11:19:29" hostname="QH_05 - 192.168.18.128" id="Test Suites/LoginEditForm">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\QH_05\\Katalon Studio\\Acme\\Reports\\LoginEditForm\\20171116_111923"/>
+         <property name="logFiles" value="C:\\Users\\QH_05\\Katalon Studio\\Acme\\Reports\\LoginEditForm\\20171116_111923\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\QH_05\\Katalon Studio\\Acme\\Reports\\LoginEditForm\\20171116_111923\\1510827615229.png"/>
+         <property name="hostName" value="QH_05 - 192.168.18.128"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.0.1.1"/>
+         <property name="browser" value="Chrome 61.0.3163.100"/>
+         <property name="hostAddress" value="192.168.18.128"/>
+         <property name="sessionId" value="4b760997555900f91dac1ffd53d508cf"/>
+         <property name="seleniumVersion" value="2.53.0"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/LoginEditLogout/EditProfile" classname="Test Cases/LoginEditLogout/EditProfile" status="FAILED">
+         <failure type="FAILED" message="Unable to set text 'Ivan' of object 'Object Repository/EditProfile/Page_ACME ECOMM  Edit Profile/Page_ACME ECOMM  Edit Profile/input_cName' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/EditProfile/Page_ACME ECOMM  Edit Profile/Page_ACME ECOMM  Edit Profile/input_cName' located by 'By.xpath: //input[count(. | //*[@class = 'nor']) = count(//*[@class = 'nor'])][count(. | //*[@type = 'text']) = count(//*[@type = 'text'])][count(. | //*[@name = 'cName']) = count(//*[@name = 'cName'])][count(. | //*[@value = 'Ivan']) = count(//*[@value = 'Ivan'])][count(. | //*[@size = '40']) = count(//*[@size = '40'])][count(. | //*[@maxlength = '255']) = count(//*[@maxlength = '255'])][count(. | id(&quot;main-big-col&quot;)/form[1]/input[@class=&quot;nor&quot;]) = count(id(&quot;main-big-col&quot;)/form[1]/input[@class=&quot;nor&quot;])]' not found)"/>
+         <system-out><![CDATA[2017-11-16 11:19:29 - [TEST_CASE][FAILED] - Test Cases/LoginEditLogout/EditProfile: Test Cases/LoginEditLogout/EditProfile FAILED because (of) Unable to set text 'Ivan' of object 'Object Repository/EditProfile/Page_ACME ECOMM  Edit Profile/Page_ACME ECOMM  Edit Profile/input_cName' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/EditProfile/Page_ACME ECOMM  Edit Profile/Page_ACME ECOMM  Edit Profile/input_cName' located by 'By.xpath: //input[count(. | //*[@class = 'nor']) = count(//*[@class = 'nor'])][count(. | //*[@type = 'text']) = count(//*[@type = 'text'])][count(. | //*[@name = 'cName']) = count(//*[@name = 'cName'])][count(. | //*[@value = 'Ivan']) = count(//*[@value = 'Ivan'])][count(. | //*[@size = '40']) = count(//*[@size = '40'])][count(. | //*[@maxlength = '255']) = count(//*[@maxlength = '255'])][count(. | id("main-big-col")/form[1]/input[@class="nor"]) = count(id("main-big-col")/form[1]/input[@class="nor"])]' not found)
+
+2017-11-16 11:19:32 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2017-11-16 11:19:39 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2017-11-16 11:19:39 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://www.acme.qualityhouse.bg/build3/index.php' successfully
+
+2017-11-16 11:19:40 - [MESSAGE][PASSED] - Navigate to 'http://www.acme.qualityhouse.bg/build3/index.php' successfully
+
+2017-11-16 11:19:40 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/EditProfile/Page_ACME ECOMM  Home/a_Login' is clicked on
+
+2017-11-16 11:19:40 - [MESSAGE][PASSED] - Object: 'Object Repository/EditProfile/Page_ACME ECOMM  Home/a_Login' is clicked on
+
+2017-11-16 11:19:40 - [TEST_STEP][PASSED] - setText: Text 'student1' is set on object 'Object Repository/EditProfile/Page_ACME ECOMM  Login/input_username'
+
+2017-11-16 11:19:41 - [MESSAGE][PASSED] - Text 'student1' is set on object 'Object Repository/EditProfile/Page_ACME ECOMM  Login/input_username'
+
+2017-11-16 11:19:41 - [TEST_STEP][PASSED] - setText: Text 'stpass1' is set on object 'Object Repository/EditProfile/Page_ACME ECOMM  Login/input_userpass'
+
+2017-11-16 11:19:41 - [MESSAGE][PASSED] - Text 'stpass1' is set on object 'Object Repository/EditProfile/Page_ACME ECOMM  Login/input_userpass'
+
+2017-11-16 11:19:41 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/EditProfile/Page_ACME ECOMM  Login/input_ses_login' is clicked on
+
+2017-11-16 11:19:42 - [MESSAGE][PASSED] - Object: 'Object Repository/EditProfile/Page_ACME ECOMM  Login/input_ses_login' is clicked on
+
+2017-11-16 11:19:42 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/EditProfile/Page_ACME ECOMM  Home/a_Edit Profile' is clicked on
+
+2017-11-16 11:19:42 - [MESSAGE][PASSED] - Object: 'Object Repository/EditProfile/Page_ACME ECOMM  Home/a_Edit Profile' is clicked on
+
+2017-11-16 11:19:42 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/EditProfile/Page_ACME ECOMM  Edit Profile/div_out-wrapper' is clicked on
+
+2017-11-16 11:19:43 - [MESSAGE][PASSED] - Object: 'Object Repository/EditProfile/Page_ACME ECOMM  Edit Profile/div_out-wrapper' is clicked on
+
+2017-11-16 11:19:43 - [TEST_STEP][PASSED] - setText: Text 'nem11@gmail.com' is set on object 'Object Repository/EditProfile/Page_ACME ECOMM  Edit Profile/input_cEmail'
+
+2017-11-16 11:19:43 - [MESSAGE][PASSED] - Text 'nem11@gmail.com' is set on object 'Object Repository/EditProfile/Page_ACME ECOMM  Edit Profile/input_cEmail'
+
+2017-11-16 11:19:43 - [TEST_STEP][FAILED] - setText: Unable to set text 'Ivan' of object 'Object Repository/EditProfile/Page_ACME ECOMM  Edit Profile/Page_ACME ECOMM  Edit Profile/input_cName' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/EditProfile/Page_ACME ECOMM  Edit Profile/Page_ACME ECOMM  Edit Profile/input_cName' located by 'By.xpath: //input[count(. | //*[@class = 'nor']) = count(//*[@class = 'nor'])][count(. | //*[@type = 'text']) = count(//*[@type = 'text'])][count(. | //*[@name = 'cName']) = count(//*[@name = 'cName'])][count(. | //*[@value = 'Ivan']) = count(//*[@value = 'Ivan'])][count(. | //*[@size = '40']) = count(//*[@size = '40'])][count(. | //*[@maxlength = '255']) = count(//*[@maxlength = '255'])][count(. | id("main-big-col")/form[1]/input[@class="nor"]) = count(id("main-big-col")/form[1]/input[@class="nor"])]' not found)
+
+2017-11-16 11:20:15 - [MESSAGE][FAILED] - Unable to set text 'Ivan' of object 'Object Repository/EditProfile/Page_ACME ECOMM  Edit Profile/Page_ACME ECOMM  Edit Profile/input_cName' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/EditProfile/Page_ACME ECOMM  Edit Profile/Page_ACME ECOMM  Edit Profile/input_cName' located by 'By.xpath: //input[count(. | //*[@class = 'nor']) = count(//*[@class = 'nor'])][count(. | //*[@type = 'text']) = count(//*[@type = 'text'])][count(. | //*[@name = 'cName']) = count(//*[@name = 'cName'])][count(. | //*[@value = 'Ivan']) = count(//*[@value = 'Ivan'])][count(. | //*[@size = '40']) = count(//*[@size = '40'])][count(. | //*[@maxlength = '255']) = count(//*[@maxlength = '255'])][count(. | id("main-big-col")/form[1]/input[@class="nor"]) = count(id("main-big-col")/form[1]/input[@class="nor"])]' not found)
+[[ATTACHMENT|C:\\Users\\QH_05\\Katalon Studio\\Acme\\Reports\\LoginEditForm\\20171116_111923\\1510827615229.png]]]]></system-out>
+         <system-err><![CDATA[2017-11-16 11:19:29 - [TEST_CASE][FAILED] - Test Cases/LoginEditLogout/EditProfile: Test Cases/LoginEditLogout/EditProfile FAILED because (of) Unable to set text 'Ivan' of object 'Object Repository/EditProfile/Page_ACME ECOMM  Edit Profile/Page_ACME ECOMM  Edit Profile/input_cName' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/EditProfile/Page_ACME ECOMM  Edit Profile/Page_ACME ECOMM  Edit Profile/input_cName' located by 'By.xpath: //input[count(. | //*[@class = 'nor']) = count(//*[@class = 'nor'])][count(. | //*[@type = 'text']) = count(//*[@type = 'text'])][count(. | //*[@name = 'cName']) = count(//*[@name = 'cName'])][count(. | //*[@value = 'Ivan']) = count(//*[@value = 'Ivan'])][count(. | //*[@size = '40']) = count(//*[@size = '40'])][count(. | //*[@maxlength = '255']) = count(//*[@maxlength = '255'])][count(. | id("main-big-col")/form[1]/input[@class="nor"]) = count(id("main-big-col")/form[1]/input[@class="nor"])]' not found)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2017-11-16 11:19:29 - [TEST_SUITE][FAILED] - LoginEditForm: Test Cases/LoginEditLogout/EditProfile FAILED because (of) Unable to set text 'Ivan' of object 'Object Repository/EditProfile/Page_ACME ECOMM  Edit Profile/Page_ACME ECOMM  Edit Profile/input_cName' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/EditProfile/Page_ACME ECOMM  Edit Profile/Page_ACME ECOMM  Edit Profile/input_cName' located by 'By.xpath: //input[count(. | //*[@class = 'nor']) = count(//*[@class = 'nor'])][count(. | //*[@type = 'text']) = count(//*[@type = 'text'])][count(. | //*[@name = 'cName']) = count(//*[@name = 'cName'])][count(. | //*[@value = 'Ivan']) = count(//*[@value = 'Ivan'])][count(. | //*[@size = '40']) = count(//*[@size = '40'])][count(. | //*[@maxlength = '255']) = count(//*[@maxlength = '255'])][count(. | id("main-big-col")/form[1]/input[@class="nor"]) = count(id("main-big-col")/form[1]/input[@class="nor"])]' not found)]]></system-out>
+      <system-err><![CDATA[2017-11-16 11:19:29 - [TEST_SUITE][FAILED] - LoginEditForm: Test Cases/LoginEditLogout/EditProfile FAILED because (of) Unable to set text 'Ivan' of object 'Object Repository/EditProfile/Page_ACME ECOMM  Edit Profile/Page_ACME ECOMM  Edit Profile/input_cName' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/EditProfile/Page_ACME ECOMM  Edit Profile/Page_ACME ECOMM  Edit Profile/input_cName' located by 'By.xpath: //input[count(. | //*[@class = 'nor']) = count(//*[@class = 'nor'])][count(. | //*[@type = 'text']) = count(//*[@type = 'text'])][count(. | //*[@name = 'cName']) = count(//*[@name = 'cName'])][count(. | //*[@value = 'Ivan']) = count(//*[@value = 'Ivan'])][count(. | //*[@size = '40']) = count(//*[@size = '40'])][count(. | //*[@maxlength = '255']) = count(//*[@maxlength = '255'])][count(. | id("main-big-col")/form[1]/input[@class="nor"]) = count(id("main-big-col")/form[1]/input[@class="nor"])]' not found)]]></system-err>
+   </testsuite>
+</testsuites>

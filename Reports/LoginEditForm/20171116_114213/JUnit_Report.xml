@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="LoginEditForm" time="14" tests="1" failures="0" errors="0">
+   <testsuite name="LoginEditForm" tests="1" failures="0" errors="0" time="14" timestamp="2017-11-16 11:42:16" hostname="QH_05 - 192.168.18.128" id="Test Suites/LoginEditForm">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\QH_05\\Katalon Studio\\Acme\\Reports\\LoginEditForm\\20171116_114213"/>
+         <property name="logFiles" value="C:\\Users\\QH_05\\Katalon Studio\\Acme\\Reports\\LoginEditForm\\20171116_114213\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="QH_05 - 192.168.18.128"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.0.1.1"/>
+         <property name="browser" value="Chrome 61.0.3163.100"/>
+         <property name="hostAddress" value="192.168.18.128"/>
+         <property name="sessionId" value="b2e5ecffee0e6da11e4e34a18b88a00d"/>
+         <property name="seleniumVersion" value="2.53.0"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/LoginEditLogout/EditProfile" classname="Test Cases/LoginEditLogout/EditProfile" status="PASSED">
+         <system-out><![CDATA[2017-11-16 11:42:17 - [TEST_CASE][PASSED] - Test Cases/LoginEditLogout/EditProfile: Test Cases/LoginEditLogout/EditProfile
+
+2017-11-16 11:42:19 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2017-11-16 11:42:24 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2017-11-16 11:42:24 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://www.acme.qualityhouse.bg/build3/index.php' successfully
+
+2017-11-16 11:42:25 - [MESSAGE][PASSED] - Navigate to 'http://www.acme.qualityhouse.bg/build3/index.php' successfully
+
+2017-11-16 11:42:25 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/EditProfile/Page_ACME ECOMM  Home/a_Login' is clicked on
+
+2017-11-16 11:42:26 - [MESSAGE][PASSED] - Object: 'Object Repository/EditProfile/Page_ACME ECOMM  Home/a_Login' is clicked on
+
+2017-11-16 11:42:26 - [TEST_STEP][PASSED] - setText: Text 'student1' is set on object 'Object Repository/EditProfile/Page_ACME ECOMM  Login/input_username'
+
+2017-11-16 11:42:27 - [MESSAGE][PASSED] - Text 'student1' is set on object 'Object Repository/EditProfile/Page_ACME ECOMM  Login/input_username'
+
+2017-11-16 11:42:27 - [TEST_STEP][PASSED] - setText: Text 'stpass1' is set on object 'Object Repository/EditProfile/Page_ACME ECOMM  Login/input_userpass'
+
+2017-11-16 11:42:27 - [MESSAGE][PASSED] - Text 'stpass1' is set on object 'Object Repository/EditProfile/Page_ACME ECOMM  Login/input_userpass'
+
+2017-11-16 11:42:27 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/EditProfile/Page_ACME ECOMM  Login/input_ses_login' is clicked on
+
+2017-11-16 11:42:28 - [MESSAGE][PASSED] - Object: 'Object Repository/EditProfile/Page_ACME ECOMM  Login/input_ses_login' is clicked on
+
+2017-11-16 11:42:28 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/EditProfile/Page_ACME ECOMM  Home/a_Edit Profile' is clicked on
+
+2017-11-16 11:42:28 - [MESSAGE][PASSED] - Object: 'Object Repository/EditProfile/Page_ACME ECOMM  Home/a_Edit Profile' is clicked on
+
+2017-11-16 11:42:28 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/EditProfile/Page_ACME ECOMM  Edit Profile/div_out-wrapper' is clicked on
+
+2017-11-16 11:42:28 - [MESSAGE][PASSED] - Object: 'Object Repository/EditProfile/Page_ACME ECOMM  Edit Profile/div_out-wrapper' is clicked on
+
+2017-11-16 11:42:28 - [TEST_STEP][PASSED] - setText: Text 'nem11@gmail.com' is set on object 'Object Repository/EditProfile/Page_ACME ECOMM  Edit Profile/input_cEmail'
+
+2017-11-16 11:42:29 - [MESSAGE][PASSED] - Text 'nem11@gmail.com' is set on object 'Object Repository/EditProfile/Page_ACME ECOMM  Edit Profile/input_cEmail'
+
+2017-11-16 11:42:29 - [TEST_STEP][PASSED] - setText: Text 'Ivan' is set on object 'Object Repository/EditProfile/Page_ACME ECOMM  Edit Profile/Page_ACME ECOMM  Edit Profile/input_cName'
+
+2017-11-16 11:42:29 - [MESSAGE][PASSED] - Text 'Ivan' is set on object 'Object Repository/EditProfile/Page_ACME ECOMM  Edit Profile/Page_ACME ECOMM  Edit Profile/input_cName'
+
+2017-11-16 11:42:29 - [TEST_STEP][PASSED] - setText: Text '060147258' is set on object 'Object Repository/EditProfile/Page_ACME ECOMM  Edit Profile/Page_ACME ECOMM  Edit Profile/input_cPhone'
+
+2017-11-16 11:42:29 - [MESSAGE][PASSED] - Text '060147258' is set on object 'Object Repository/EditProfile/Page_ACME ECOMM  Edit Profile/Page_ACME ECOMM  Edit Profile/input_cPhone'
+
+2017-11-16 11:42:29 - [TEST_STEP][PASSED] - setText: Text 'Sencanska' is set on object 'Object Repository/EditProfile/Page_ACME ECOMM  Edit Profile/Page_ACME ECOMM  Edit Profile/textarea_Sencanska'
+
+2017-11-16 11:42:29 - [MESSAGE][PASSED] - Text 'Sencanska' is set on object 'Object Repository/EditProfile/Page_ACME ECOMM  Edit Profile/Page_ACME ECOMM  Edit Profile/textarea_Sencanska'
+
+2017-11-16 11:42:29 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/EditProfile/Page_ACME ECOMM  Edit Profile/submit button edit' is clicked on
+
+2017-11-16 11:42:30 - [MESSAGE][PASSED] - Object: 'Object Repository/EditProfile/Page_ACME ECOMM  Edit Profile/submit button edit' is clicked on
+
+2017-11-16 11:42:30 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/EditProfile/Page_ACME ECOMM  Edit Profile/b_Your profile was updated suc' are matched.
+
+2017-11-16 11:42:30 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/EditProfile/Page_ACME ECOMM  Edit Profile/b_Your profile was updated suc' are matched.
+
+2017-11-16 11:42:30 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2017-11-16 11:42:31 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2017-11-16 11:42:16 - [TEST_SUITE][PASSED] - LoginEditForm: Test Cases/LoginEditLogout/EditProfile]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

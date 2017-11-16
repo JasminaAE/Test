@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>BrowseBookByISBN</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>4221a253-4f42-40fb-a61e-fc4a1b61bc3d</testCaseGuid>
+</TestCaseEntity>

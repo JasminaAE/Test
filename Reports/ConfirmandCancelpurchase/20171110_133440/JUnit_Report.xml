@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="ConfirmandCancelpurchase" time="8" tests="2" failures="0" errors="0">
+   <testsuite name="ConfirmandCancelpurchase" tests="2" failures="0" errors="0" time="8" timestamp="2017-11-10 13:34:42" hostname="QH_05 - 192.168.18.128" id="Test Suites/ConfirmandCancelpurchase">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\QH_05\\Katalon Studio\\Acme\\Reports\\ConfirmandCancelpurchase\\20171110_133440"/>
+         <property name="logFiles" value="C:\\Users\\QH_05\\Katalon Studio\\Acme\\Reports\\ConfirmandCancelpurchase\\20171110_133440\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="QH_05 - 192.168.18.128"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.0.1.1"/>
+         <property name="browser" value="Chrome 61.0.3163.100"/>
+         <property name="hostAddress" value="192.168.18.128"/>
+         <property name="sessionId" value="f1fd17026e4ad513ca4729b03de22f6f"/>
+         <property name="seleniumVersion" value="2.53.0"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/PurchaseCancel,removeBook/PurchaseBook" classname="Test Cases/PurchaseCancel,removeBook/PurchaseBook" status="PASSED">
+         <system-out><![CDATA[2017-11-10 13:34:42 - [TEST_CASE][PASSED] - Test Cases/PurchaseCancel,removeBook/PurchaseBook: Test Cases/PurchaseCancel,removeBook/PurchaseBook
+
+2017-11-10 13:34:42 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2017-11-10 13:34:45 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2017-11-10 13:34:45 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://www.acme.qualityhouse.bg/build3/index.php' successfully
+
+2017-11-10 13:34:46 - [MESSAGE][PASSED] - Navigate to 'http://www.acme.qualityhouse.bg/build3/index.php' successfully
+
+2017-11-10 13:34:46 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/PurchaseBook/a_Books' is clicked on
+
+2017-11-10 13:34:46 - [MESSAGE][PASSED] - Object: 'Object Repository/PurchaseBook/a_Books' is clicked on
+
+2017-11-10 13:34:46 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/PurchaseBook/a_Art' is clicked on
+
+2017-11-10 13:34:46 - [MESSAGE][PASSED] - Object: 'Object Repository/PurchaseBook/a_Art' is clicked on
+
+2017-11-10 13:34:46 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/PurchaseBook/a_add to basket' is clicked on
+
+2017-11-10 13:34:47 - [MESSAGE][PASSED] - Object: 'Object Repository/PurchaseBook/a_add to basket' is clicked on
+
+2017-11-10 13:34:47 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/PurchaseBook/a_Basket (1)' is clicked on
+
+2017-11-10 13:34:47 - [MESSAGE][PASSED] - Object: 'Object Repository/PurchaseBook/a_Basket (1)' is clicked on
+
+2017-11-10 13:34:47 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/PurchaseBook/a_Checkout' is clicked on
+
+2017-11-10 13:34:47 - [MESSAGE][PASSED] - Object: 'Object Repository/PurchaseBook/a_Checkout' is clicked on
+
+2017-11-10 13:34:47 - [TEST_STEP][PASSED] - acceptAlert: Alert accepted
+
+2017-11-10 13:34:47 - [MESSAGE][PASSED] - Alert accepted
+
+2017-11-10 13:34:47 - [TEST_STEP][PASSED] - setText: Text 'student1' is set on object 'Object Repository/PurchaseBook/input_username'
+
+2017-11-10 13:34:47 - [MESSAGE][PASSED] - Text 'student1' is set on object 'Object Repository/PurchaseBook/input_username'
+
+2017-11-10 13:34:47 - [TEST_STEP][PASSED] - setText: Text 'stpass1' is set on object 'Object Repository/PurchaseBook/input_userpass'
+
+2017-11-10 13:34:47 - [MESSAGE][PASSED] - Text 'stpass1' is set on object 'Object Repository/PurchaseBook/input_userpass'
+
+2017-11-10 13:34:47 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/PurchaseBook/input_ses_login' is clicked on
+
+2017-11-10 13:34:48 - [MESSAGE][PASSED] - Object: 'Object Repository/PurchaseBook/input_ses_login' is clicked on
+
+2017-11-10 13:34:48 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/PurchaseBook/a_Confirm Purchase' is clicked on
+
+2017-11-10 13:34:48 - [MESSAGE][PASSED] - Object: 'Object Repository/PurchaseBook/a_Confirm Purchase' is clicked on
+
+2017-11-10 13:34:48 - [TEST_STEP][PASSED] - acceptAlert: Alert accepted
+
+2017-11-10 13:34:48 - [MESSAGE][PASSED] - Alert accepted
+
+2017-11-10 13:34:48 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'Thank you for your purchase!' is present on page 
+
+2017-11-10 13:34:48 - [MESSAGE][PASSED] - Text 'Thank you for your purchase!' is present on page 
+
+2017-11-10 13:34:48 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/PurchaseBook/a_Go to Home page' is clicked on
+
+2017-11-10 13:34:48 - [MESSAGE][PASSED] - Object: 'Object Repository/PurchaseBook/a_Go to Home page' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/PurchaseCancel,removeBook/CancelPurchaseforTestSuite" classname="Test Cases/PurchaseCancel,removeBook/CancelPurchaseforTestSuite" status="PASSED">
+         <system-out><![CDATA[2017-11-10 13:34:48 - [TEST_CASE][PASSED] - Test Cases/PurchaseCancel,removeBook/CancelPurchaseforTestSuite: Test Cases/PurchaseCancel,removeBook/CancelPurchaseforTestSuite
+
+2017-11-10 13:34:48 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/cancel purchase/Page_ACME ECOMM  Home/a_Books' is clicked on
+
+2017-11-10 13:34:48 - [MESSAGE][PASSED] - Object: 'Object Repository/cancel purchase/Page_ACME ECOMM  Home/a_Books' is clicked on
+
+2017-11-10 13:34:48 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/BookArtDetail/a_Art' is clicked on
+
+2017-11-10 13:34:49 - [MESSAGE][PASSED] - Object: 'Object Repository/BookArtDetail/a_Art' is clicked on
+
+2017-11-10 13:34:49 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/cancel purchase/Page_ACME ECOMM  BooksBiographies/a_add to basket' is clicked on
+
+2017-11-10 13:34:49 - [MESSAGE][PASSED] - Object: 'Object Repository/cancel purchase/Page_ACME ECOMM  BooksBiographies/a_add to basket' is clicked on
+
+2017-11-10 13:34:49 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/cancel purchase/Page_ACME ECOMM  BooksBiographies/a_Basket' is clicked on
+
+2017-11-10 13:34:49 - [MESSAGE][PASSED] - Object: 'Object Repository/cancel purchase/Page_ACME ECOMM  BooksBiographies/a_Basket' is clicked on
+
+2017-11-10 13:34:49 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/PurchaseBook/a_Checkout' is clicked on
+
+2017-11-10 13:34:49 - [MESSAGE][PASSED] - Object: 'Object Repository/PurchaseBook/a_Checkout' is clicked on
+
+2017-11-10 13:34:49 - [TEST_STEP][PASSED] - acceptAlert: Alert accepted
+
+2017-11-10 13:34:49 - [MESSAGE][PASSED] - Alert accepted
+
+2017-11-10 13:34:49 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/cancel purchase/Page_ACME ECOMM  Checkout/a_Cancel Purchase' is clicked on
+
+2017-11-10 13:34:49 - [MESSAGE][PASSED] - Object: 'Object Repository/cancel purchase/Page_ACME ECOMM  Checkout/a_Cancel Purchase' is clicked on
+
+2017-11-10 13:34:49 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2017-11-10 13:34:50 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2017-11-10 13:34:42 - [TEST_SUITE][PASSED] - ConfirmandCancelpurchase: Test Cases/PurchaseCancel,removeBook/CancelPurchaseforTestSuite]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

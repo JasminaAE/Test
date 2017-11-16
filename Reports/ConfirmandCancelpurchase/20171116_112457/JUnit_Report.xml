@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="ConfirmandCancelpurchase" time="36" tests="1" failures="1" errors="0">
+   <testsuite name="ConfirmandCancelpurchase" tests="1" failures="1" errors="0" time="36" timestamp="2017-11-16 11:25:02" hostname="QH_05 - 192.168.18.128" id="Test Suites/ConfirmandCancelpurchase">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\QH_05\\Katalon Studio\\Acme\\Reports\\ConfirmandCancelpurchase\\20171116_112457"/>
+         <property name="logFiles" value="C:\\Users\\QH_05\\Katalon Studio\\Acme\\Reports\\ConfirmandCancelpurchase\\20171116_112457\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\QH_05\\Katalon Studio\\Acme\\Reports\\ConfirmandCancelpurchase\\20171116_112457\\1510827937871.png"/>
+         <property name="hostName" value="QH_05 - 192.168.18.128"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.0.1.1"/>
+         <property name="browser" value="Firefox 56.0"/>
+         <property name="hostAddress" value="192.168.18.128"/>
+         <property name="sessionId" value="ebc03213-fbbf-47b8-92a2-6599218dc18d"/>
+         <property name="seleniumVersion" value="2.53.0"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/PurchaseCancel,removeBook/PurchaseBook" classname="Test Cases/PurchaseCancel,removeBook/PurchaseBook" status="PASSED">
+         <system-out><![CDATA[2017-11-16 11:25:03 - [TEST_CASE][PASSED] - Test Cases/PurchaseCancel,removeBook/PurchaseBook: Test Cases/PurchaseCancel,removeBook/PurchaseBook
+
+2017-11-16 11:25:05 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2017-11-16 11:25:33 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2017-11-16 11:25:33 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://www.acme.qualityhouse.bg/build3/index.php' successfully
+
+2017-11-16 11:25:34 - [MESSAGE][PASSED] - Navigate to 'http://www.acme.qualityhouse.bg/build3/index.php' successfully
+
+2017-11-16 11:25:34 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/PurchaseBook/a_Books' is clicked on
+
+2017-11-16 11:25:34 - [MESSAGE][PASSED] - Object: 'Object Repository/PurchaseBook/a_Books' is clicked on
+
+2017-11-16 11:25:34 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/PurchaseBook/a_Art' is clicked on
+
+2017-11-16 11:25:34 - [MESSAGE][PASSED] - Object: 'Object Repository/PurchaseBook/a_Art' is clicked on
+
+2017-11-16 11:25:34 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/PurchaseBook/a_add to basket' is clicked on
+
+2017-11-16 11:25:34 - [MESSAGE][PASSED] - Object: 'Object Repository/PurchaseBook/a_add to basket' is clicked on
+
+2017-11-16 11:25:34 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/PurchaseBook/a_Basket (1)' is clicked on
+
+2017-11-16 11:25:35 - [MESSAGE][PASSED] - Object: 'Object Repository/PurchaseBook/a_Basket (1)' is clicked on
+
+2017-11-16 11:25:35 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/PurchaseBook/a_Checkout' is clicked on
+
+2017-11-16 11:25:35 - [MESSAGE][PASSED] - Object: 'Object Repository/PurchaseBook/a_Checkout' is clicked on
+
+2017-11-16 11:25:35 - [TEST_STEP][PASSED] - acceptAlert: Alert accepted
+
+2017-11-16 11:25:35 - [MESSAGE][PASSED] - Alert accepted
+
+2017-11-16 11:25:35 - [TEST_STEP][PASSED] - setText: Text 'student1' is set on object 'Object Repository/PurchaseBook/input_username'
+
+2017-11-16 11:25:35 - [MESSAGE][PASSED] - Text 'student1' is set on object 'Object Repository/PurchaseBook/input_username'
+
+2017-11-16 11:25:35 - [TEST_STEP][PASSED] - setText: Text 'stpass1' is set on object 'Object Repository/PurchaseBook/input_userpass'
+
+2017-11-16 11:25:35 - [MESSAGE][PASSED] - Text 'stpass1' is set on object 'Object Repository/PurchaseBook/input_userpass'
+
+2017-11-16 11:25:35 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/PurchaseBook/input_ses_login' is clicked on
+
+2017-11-16 11:25:35 - [MESSAGE][PASSED] - Object: 'Object Repository/PurchaseBook/input_ses_login' is clicked on
+
+2017-11-16 11:25:35 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/PurchaseBook/a_Confirm Purchase' is clicked on
+
+2017-11-16 11:25:35 - [MESSAGE][PASSED] - Object: 'Object Repository/PurchaseBook/a_Confirm Purchase' is clicked on
+
+2017-11-16 11:25:35 - [TEST_STEP][PASSED] - acceptAlert: Alert accepted
+
+2017-11-16 11:25:36 - [MESSAGE][PASSED] - Alert accepted
+
+2017-11-16 11:25:36 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'Thank you for your purchase!' is present on page 
+
+2017-11-16 11:25:36 - [MESSAGE][PASSED] - Text 'Thank you for your purchase!' is present on page 
+
+2017-11-16 11:25:36 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/PurchaseBook/a_Go to Home page' is clicked on
+
+2017-11-16 11:25:36 - [MESSAGE][PASSED] - Object: 'Object Repository/PurchaseBook/a_Go to Home page' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/PurchaseCancel,removeBook/CancelPurchaseforTestSuite" classname="Test Cases/PurchaseCancel,removeBook/CancelPurchaseforTestSuite" status="FAILED">
+         <failure type="FAILED" message="Unable to verify text 'Home' is present  using regular expression (Root cause: org.openqa.selenium.UnhandledAlertException: Unexpected modal dialog (text: Do you want to cancel this purchase?): Do you want to cancel this purchase?
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'DESKTOP-RJBLQNG', ip: '192.168.18.128', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CFirefoxDriver47
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=56.0.2, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: ebc03213-fbbf-47b8-92a2-6599218dc18d
+*** Element info: {Using=tag name, value=body})"/>
+         <system-out><![CDATA[2017-11-16 11:25:36 - [TEST_CASE][FAILED] - Test Cases/PurchaseCancel,removeBook/CancelPurchaseforTestSuite: Test Cases/PurchaseCancel,removeBook/CancelPurchaseforTestSuite FAILED because (of) Unable to verify text 'Home' is present  using regular expression (Root cause: org.openqa.selenium.UnhandledAlertException: Unexpected modal dialog (text: Do you want to cancel this purchase?): Do you want to cancel this purchase?
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'DESKTOP-RJBLQNG', ip: '192.168.18.128', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CFirefoxDriver47
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=56.0.2, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: ebc03213-fbbf-47b8-92a2-6599218dc18d
+*** Element info: {Using=tag name, value=body})
+
+2017-11-16 11:25:36 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/cancel purchase/Page_ACME ECOMM  Home/a_Books' is clicked on
+
+2017-11-16 11:25:36 - [MESSAGE][PASSED] - Object: 'Object Repository/cancel purchase/Page_ACME ECOMM  Home/a_Books' is clicked on
+
+2017-11-16 11:25:36 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/BookArtDetail/a_Art' is clicked on
+
+2017-11-16 11:25:37 - [MESSAGE][PASSED] - Object: 'Object Repository/BookArtDetail/a_Art' is clicked on
+
+2017-11-16 11:25:37 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/cancel purchase/Page_ACME ECOMM  BooksBiographies/a_add to basket' is clicked on
+
+2017-11-16 11:25:37 - [MESSAGE][PASSED] - Object: 'Object Repository/cancel purchase/Page_ACME ECOMM  BooksBiographies/a_add to basket' is clicked on
+
+2017-11-16 11:25:37 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/cancel purchase/Page_ACME ECOMM  BooksBiographies/a_Basket' is clicked on
+
+2017-11-16 11:25:37 - [MESSAGE][PASSED] - Object: 'Object Repository/cancel purchase/Page_ACME ECOMM  BooksBiographies/a_Basket' is clicked on
+
+2017-11-16 11:25:37 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/PurchaseBook/a_Checkout' is clicked on
+
+2017-11-16 11:25:37 - [MESSAGE][PASSED] - Object: 'Object Repository/PurchaseBook/a_Checkout' is clicked on
+
+2017-11-16 11:25:37 - [TEST_STEP][PASSED] - acceptAlert: Alert accepted
+
+2017-11-16 11:25:37 - [MESSAGE][PASSED] - Alert accepted
+
+2017-11-16 11:25:37 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/cancel purchase/Page_ACME ECOMM  Checkout/a_Cancel Purchase' is clicked on
+
+2017-11-16 11:25:37 - [MESSAGE][PASSED] - Object: 'Object Repository/cancel purchase/Page_ACME ECOMM  Checkout/a_Cancel Purchase' is clicked on
+
+2017-11-16 11:25:37 - [TEST_STEP][FAILED] - verifyTextPresent: Unable to verify text 'Home' is present  using regular expression (Root cause: org.openqa.selenium.UnhandledAlertException: Unexpected modal dialog (text: Do you want to cancel this purchase?): Do you want to cancel this purchase?
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'DESKTOP-RJBLQNG', ip: '192.168.18.128', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CFirefoxDriver47
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=56.0.2, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: ebc03213-fbbf-47b8-92a2-6599218dc18d
+*** Element info: {Using=tag name, value=body})
+
+2017-11-16 11:25:37 - [MESSAGE][FAILED] - Unable to verify text 'Home' is present  using regular expression (Root cause: org.openqa.selenium.UnhandledAlertException: Unexpected modal dialog (text: Do you want to cancel this purchase?): Do you want to cancel this purchase?
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'DESKTOP-RJBLQNG', ip: '192.168.18.128', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CFirefoxDriver47
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=56.0.2, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: ebc03213-fbbf-47b8-92a2-6599218dc18d
+*** Element info: {Using=tag name, value=body})
+[[ATTACHMENT|C:\\Users\\QH_05\\Katalon Studio\\Acme\\Reports\\ConfirmandCancelpurchase\\20171116_112457\\1510827937871.png]]]]></system-out>
+         <system-err><![CDATA[2017-11-16 11:25:36 - [TEST_CASE][FAILED] - Test Cases/PurchaseCancel,removeBook/CancelPurchaseforTestSuite: Test Cases/PurchaseCancel,removeBook/CancelPurchaseforTestSuite FAILED because (of) Unable to verify text 'Home' is present  using regular expression (Root cause: org.openqa.selenium.UnhandledAlertException: Unexpected modal dialog (text: Do you want to cancel this purchase?): Do you want to cancel this purchase?
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'DESKTOP-RJBLQNG', ip: '192.168.18.128', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CFirefoxDriver47
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=56.0.2, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: ebc03213-fbbf-47b8-92a2-6599218dc18d
+*** Element info: {Using=tag name, value=body})]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2017-11-16 11:25:02 - [TEST_SUITE][FAILED] - ConfirmandCancelpurchase: Test Cases/PurchaseCancel,removeBook/CancelPurchaseforTestSuite FAILED because (of) Unable to verify text 'Home' is present  using regular expression (Root cause: org.openqa.selenium.UnhandledAlertException: Unexpected modal dialog (text: Do you want to cancel this purchase?): Do you want to cancel this purchase?
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'DESKTOP-RJBLQNG', ip: '192.168.18.128', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CFirefoxDriver47
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=56.0.2, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: ebc03213-fbbf-47b8-92a2-6599218dc18d
+*** Element info: {Using=tag name, value=body})]]></system-out>
+      <system-err><![CDATA[2017-11-16 11:25:02 - [TEST_SUITE][FAILED] - ConfirmandCancelpurchase: Test Cases/PurchaseCancel,removeBook/CancelPurchaseforTestSuite FAILED because (of) Unable to verify text 'Home' is present  using regular expression (Root cause: org.openqa.selenium.UnhandledAlertException: Unexpected modal dialog (text: Do you want to cancel this purchase?): Do you want to cancel this purchase?
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'DESKTOP-RJBLQNG', ip: '192.168.18.128', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CFirefoxDriver47
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=56.0.2, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: ebc03213-fbbf-47b8-92a2-6599218dc18d
+*** Element info: {Using=tag name, value=body})]]></system-err>
+   </testsuite>
+</testsuites>
